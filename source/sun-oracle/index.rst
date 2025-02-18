@@ -12,7 +12,7 @@ Exadata
 -------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    exadata/oracle-exadata-cabling-table
    exadata/oracle-exadata-fmod-position
