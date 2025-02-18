@@ -23,8 +23,9 @@ Exadata
    exadata/oracle-exadata-optane-pmem
    exadata/oracle-exadata-pxe-reimage
    exadata/oracle-exadata-root-unlock
-   exadata/oracle-exadata-compute-servers-components
-   exadata/oracle-exadata-storage-servers-components
+   exadata/exadata-hw-components/oracle-exadata-hw-components-by-model
+   exadata/exadata-hw-components/oracle-exadata-compute-servers-components
+   exadata/exadata-hw-components/oracle-exadata-storage-servers-components
    exadata/oracle-exadata-zdlra-extend-fs
 
 Hardware
