@@ -1,15 +1,56 @@
 .. index:: exadata, default, configuration, components, servers, compute, db
 
 .. meta::
-   :keywords: exadata, intel, amd, configuration, components, servers, compute, db, pmem
+   :keywords: exadata, intel, amd, epyc, configuration, components, servers, compute, db, pmem, hardware
 
 .. _oracle-exadata-compute-servers-components:
 
 Oracle Exadata Database Server Hardware Components
 ==================================================
 
-Oracle Exadata X10M Database Server Hardware Components
--------------------------------------------------------
+
+Oracle Exadata Database Server X11M
+-----------------------------------
+
+- CPU: 2 x 96-core AMD EPYC 9J25 processors, 2.6 GHz (up to 4.5 GHz)
+- RAM: 6400MT/s DDR5 DIMMs. 512 GB (16 x 32 GB DIMMs), 1.5 TB (24 x 64 GB DIMMs), 2.25 TB (24 x 96 GB DIMMs), or 3 TB (24 x 128 GB DIMMs)
+- System storage: 2 x 3.84 TB NVMe storage devices, expandable to 4 devices
+- RDMA Network Fabric: 1 x dual-port CX7 RDMA Network Fabric adapter; PCIe 5.0, 2 x 100 Gb/s ports active-active (200 Gb/s combined throughput)
+- Administration network: 1 x 1 GbE Base-T Ethernet port
+- Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
+- Client and additional network connectivity:
+
+    - Two factory-installed CX6-LX network adapters. Each contains 2 x SFP+/SFP28 ports (10/25 GbE)
+    - Up to 3 optional network adapters. Each adapter can be any of the following:
+
+      - CX6-LX with 2 x SFP+/SFP28 ports (10/25 GbE)
+      - CX6-DX with 2 x QSFP28 ports (100GbE). Each QSFP28 port can support one 10 GbE or 25 GbE link with appropriate breakout cables.
+      - Quad 10G RJ45 Ethernet with 4 x 10GBASE-T ports (10 GbE)
+
+
+Oracle Exadata Database Server X11M-Z
+-------------------------------------
+
+- CPU: 1 x 32-core AMD EPYC 9J15 processor, 2.95 GHz (up to 4.4 GHz)
+- RAM: 6400MT/s DDR5 DIMMs. 768 GB (12 x 64 GB DIMMs) or 1.125 TB (12 x 96 GB DIMMs)
+- System storage: 2 x 3.84 TB NVMe storage devices, expandable to 4 devices
+- RDMA Network Fabric: 1 x dual-port CX7 RDMA Network Fabric adapter; PCIe 5.0, 2 x 100 Gb/s ports active-active (200 Gb/s combined throughput)
+- Administration network: 1 x 1 GbE Base-T Ethernet port
+- Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
+- Client and additional network connectivity:
+
+    - Two factory-installed CX6-LX network adapters. Each contains 2 x SFP+/SFP28 ports (10/25 GbE)
+    - One additional field-installed network adapter containing any of the following:
+
+      - CX6-LX with 2 x SFP+/SFP28 ports (10/25 GbE)
+      - CX6-DX with 2 x QSFP28 ports (100GbE). Each QSFP28 port can support one 10 GbE or 25 GbE link with appropriate breakout cables.
+      - Quad 10G RJ45 Ethernet with 4 x 10GBASE-T ports (10 GbE)
+
+    - Optionally, one or both of the factory-installed CX6-LX network adapters can be replaced by field-installed Quad 10G RJ45 Ethernet network adapters, with each adapter containing 4 x 10GBASE-T ports (10 GbE).
+
+
+Oracle Exadata X10M Database Server
+-----------------------------------
 
 - CPU: 2 x 96-core AMD EPYC 9J14 processors @ 2.6 GHz (up to 3.7 GHz)
 - RAM: 512 GB RAM (16 x 32 GB DIMMs), 1.5 TB (24 x 64 GB DIMMs), 2.25 TB (24 x 96 GB DIMMs), or 3 TB (24 x 128 GB DIMMs)
@@ -27,8 +68,29 @@ Oracle Exadata X10M Database Server Hardware Components
     - Fortpond RJ45 Ethernet with 4 x 10GBASE-T ports (10 GbE)
 
 
-Oracle Exadata X9M-2 Database Server Hardware Components
---------------------------------------------------------
+Oracle Exadata X10M Eighth Rack Database Server
+-----------------------------------------------
+
+- CPU: 1 x 32-core AMD EPYC 9334 processor, 2.7 GHz (up to 3.9 GHz)
+- RAM: 384 GB RAM (12 x 32 GB DIMMs), 768 GB (12 x 64 GB DIMMs), or 1.125 TB (12 x 96 GB DIMMs)
+- System storage: 2 x 3.84 TB PCIe 4.0 NVMe storage devices, expandable to 4 devices
+- RDMA Network Fabric: 1 x dual-port CX7 RDMA Network Fabric card; PCIe 5.0, 2 x 100 Gb/s ports active-active (200 Gb/s combined throughput)
+- Administration network: 1 x 1 GbE Base-T Ethernet port
+- Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
+- Client and additional network connectivity:
+
+    - Two factory-installed CX6-LX network cards. Each card contains 2 x SFP+/SFP28 ports (10/25 GbE)
+    - One additional field-installed network card containing any of the following:
+
+        - CX6-LX with 2 x SFP+/SFP28 ports (10/25 GbE)
+        - CX6-DX with 2 x QSFP28 ports (100GbE). Each QSFP28 port can support one 10 GbE or 25 GbE link with appropriate breakout cables.
+        - Fortpond RJ45 Ethernet with 4 x 10GBASE-T ports (10 GbE)
+
+    - Optionally, one or both of the factory-installed CX6-LX network cards can be replaced by field-installed Fortpond RJ45 Ethernet network cards, with each card containing 4 x 10GBASE-T ports (10 GbE).
+
+
+Oracle Exadata X9M-2 Database Server
+------------------------------------
 
 - CPU: 32-core Intel Xeon 8358 processors @ 2.6 GHz:
 
@@ -53,8 +115,8 @@ Oracle Exadata X9M-2 Database Server Hardware Components
   - Eighth Rack: Two factory-installed network cards only. Each card contains 2 x SFP+/SFP28 ports (10/25 GbE) or 4 x 10GBASE-T ports (10 GbE)
 
 
-Oracle Exadata X9M-8 Database Server Hardware Components
---------------------------------------------------------
+Oracle Exadata X9M-8 Database Server
+------------------------------------
 
 - CPU: 8 x 24-core Intel Xeon Platinum 8268 Processors @ 2.9GHz
 - RAM: 3 TB (48 x 64 GB DIMMs), expandable to a maximum of 6 TB (96 x 64 GB DIMMs)
@@ -68,8 +130,8 @@ Oracle Exadata X9M-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
 
 
-Oracle Exadata X8M-2 Database Server Hardware Components
---------------------------------------------------------
+Oracle Exadata X8M-2 Database Server
+------------------------------------
 
 - CPU: 2 x 24-core Intel Xeon Platinum 8260 Processors @ 2.4 GHz
 - RAM: 384 GB RAM (12 x 32 GB DIMMs), expandable to 1.5 TB (24 x 64 GB DIMMs) with memory expansion kit
@@ -82,8 +144,8 @@ Oracle Exadata X8M-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
 
 
-Oracle Exadata X8M-8 Database Server Hardware Components
---------------------------------------------------------
+Oracle Exadata X8M-8 Database Server
+------------------------------------
 
 - CPU: 8 x 24-core Intel Xeon Platinum 8268 Processors @ 2.9GHz
 - RAM: 3 TB (48 x 64 GB DIMMs)
@@ -94,8 +156,8 @@ Oracle Exadata X8M-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
 
 
-Oracle Exadata X8-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X8-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 24-core Intel Xeon Platinum 8260 Processors @ 2.4 GHz
 - RAM: 384 GB RAM (12 x 32 GB DIMMs), expandable to 768 GB (12 x 64 GB DIMMs) or 1.5 TB (24 x 64 GB DIMMs) with memory expansion kit
@@ -108,8 +170,8 @@ Oracle Exadata X8-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
 
 
-Oracle Exadata X8-8 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X8-8 Database Server
+-----------------------------------
 
 - CPU: 8 x 24-core Intel Xeon Platinum 8268 Processors @ 2.9GHz
 - RAM: 3 TB (48 x 64 GB DIMMs) RAM, expandable to 6 TB (96 x 64 GB DIMMs) with memory expansion kit
@@ -120,8 +182,8 @@ Oracle Exadata X8-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 1 GbE Base-T Ethernet port
 
 
-Oracle Exadata X7-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X7-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 24-core Intel Xeon Platinum 8160 Processors @ 2.10GHz
 - RAM: 384 GB RAM, expandable to 768 GB (12 x 64 GB) or 1.5 TB (24 x 64GB) with memory expansion kit
@@ -133,8 +195,8 @@ Oracle Exadata X7-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X7-8 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X7-8 Database Server
+-----------------------------------
 
 - CPU: 8 x 24-core Intel Xeon Platinum 8168 Processors @ 2.70GHz
 - RAM: 3TB (48 x 64 GB) RAM, expandable to 6 TB (96 x 64 GB) with memory expansion kit
@@ -144,8 +206,8 @@ Oracle Exadata X7-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X6-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X6-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 22-core Intel Xeon E5-2699 v4 processors @ 2.2 GHz
 - RAM: 256 GB (8 x 32 GB) RAM expandable to 512 GB (16 x 32 GB) or 768 GB (24 x 32 GB) with memory expansion kit
@@ -157,8 +219,8 @@ Oracle Exadata X6-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X5-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X5-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 18-Core Intel Xeon E5-2699 v3 processors @ 2.3 GHz
 - RAM: 256 GB (8 x 32 GB) RAM expandable to 768 GB with memory expansion kit
@@ -170,8 +232,8 @@ Oracle Exadata X5-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X5-8 and X6-8 Database Server Hardware Components
-----------------------------------------------------------------
+Oracle Exadata X5-8 and X6-8 Database Server
+--------------------------------------------
 
 - CPU: 8 x 18-Core Intel Xeon E7-8895 v3 processors @ 2.6 GHz
 - RAM: 2 TB (64 x 32 GB) RAM, expandable to 6 TB (192 x 32 GB) with memory expansion kit
@@ -183,8 +245,8 @@ Oracle Exadata X5-8 and X6-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X4-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X4-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 12-Core Intel Xeon E5-2697 v2 processors @ 2.7 GHz
 - RAM: 256 GB (16 x 16 GB) RAM expandable to 512 GB (16 x 32 GB) with memory expansion kit
@@ -196,8 +258,8 @@ Oracle Exadata X4-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100 BASE-T Ethernet port
 
 
-Oracle Exadata X4-8 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X4-8 Database Server
+-----------------------------------
 
 - CPU: 8 x 15-Core Intel Xeon E5-8895 v2 processors @ 2.8 GHz
 - RAM: 2 TB (64 x 32 GB) RAM expandable to 4 TB or 6 TB with memory expansion kit
@@ -209,8 +271,8 @@ Oracle Exadata X4-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100/1000 BASE-T Ethernet port
 
 
-Oracle Exadata X3-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X3-2 Database Server
+-----------------------------------
 
 - CPU: 2 x 8-Core Eight-Core Intel Xeon E5-2690 processors @ 2.9 GHz
 - RAM: 256 GB (16 x 16 GB) RAM expandable to 512 GB with memory expansion kit
@@ -222,8 +284,8 @@ Oracle Exadata X3-2 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100 BASE-T Ethernet port
 
 
-Oracle Exadata X3-8 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X3-8 Database Server
+-----------------------------------
 
 - CPU: 8 x 10-Core Intel Xeon E7-8870 Processors @ 2.40 GHz
 - RAM: 2 TB RAM (128 x 16 GB)
@@ -236,8 +298,8 @@ Oracle Exadata X3-8 Database Server Hardware Components
 - Integrated Lights Out Manager (ILOM) port for remote management: 1 x 10/100 BASE-T Ethernet port
 
 
-Oracle Exadata X2-2 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X2-2 Database Server
+-----------------------------------
 
 - Components of Sun Fire X4170 Oracle Database Servers
 
@@ -269,8 +331,8 @@ Oracle Exadata X2-2 Database Server Hardware Components
    However, there is a downside to populating all the memory slots as the frequency of the memory DIMMs drop to 800 MHz from 1333 MHz. The performance effect of the slower memory appears as increased CPU utilization. The average measured increase in CPU utilization is typically between 5% and 10%. The increase varies greatly by workload. In test workloads, several workloads had almost zero increase, while one workload had as high as a 20% increase.
 
 
-Oracle Exadata X2-8 Database Server Hardware Components
--------------------------------------------------------
+Oracle Exadata X2-8 Database Server
+-----------------------------------
 
 - Components of Sun Fire X4800 Oracle Database Servers
 
