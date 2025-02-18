@@ -12,7 +12,7 @@ Exadata
 -------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    exadata/oracle-exadata-cabling-table
    exadata/oracle-exadata-fmod-position
@@ -23,9 +23,7 @@ Exadata
    exadata/oracle-exadata-optane-pmem
    exadata/oracle-exadata-pxe-reimage
    exadata/oracle-exadata-root-unlock
-   exadata/exadata-hw-components/oracle-exadata-hw-components-by-model
-   exadata/exadata-hw-components/oracle-exadata-compute-servers-components
-   exadata/exadata-hw-components/oracle-exadata-storage-servers-components
+   exadata/oracle-exadata_hw_components
    exadata/oracle-exadata-zdlra-extend-fs
 
 Hardware
