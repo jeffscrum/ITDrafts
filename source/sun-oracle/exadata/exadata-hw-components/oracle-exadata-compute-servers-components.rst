@@ -210,7 +210,7 @@ Oracle Exadata X6-2 Database Server
 -----------------------------------
 
 - CPU: 2 x 22-core Intel Xeon E5-2699 v4 processors @ 2.2 GHz
-- RAM: 256 GB (8 x 32 GB) RAM expandable to 512 GB (16 x 32 GB) or 768 GB (24 x 32 GB) with memory expansion kit
+- RAM: 256 GB (8 x 32 GB) RAM expandable to 512 GB (16 x 32 GB) or 768 GB (24 x 32 GB) or 1024 GB (16 x 64 GB) or 1536 GB (24 x 64 GB) with memory expansion kit
 - System storage: 4 x 600 GB 10K RPM SAS disks, hot swappable, expandable to 8x
 - Disk controller HBA with 1 GB cache (no more batteries)
 - RDMA Network Fabric: 2 x InfiniBand 4X QDR (40 Gbps) ports (PCIe 3.0), both ports active
