@@ -1,3 +1,13 @@
+.. index:: linux, debian, dhcpd
+
+.. meta::
+   :keywords: linux, debian, dhcpd
+
+.. _linux-isc-dhcp-server:
+
+isc-dhcp-server failed to start
+===============================
+
 The *isc-dhcp-server* included in Debian will attempt to start a
 DHCPv6 instance on servers which have a dual-stack (IPv4 & IPv6) config.
 
