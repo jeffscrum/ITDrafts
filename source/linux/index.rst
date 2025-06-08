@@ -18,6 +18,7 @@ Linux
    linux-centos8-yum-error
    linux-centos-install-kernel
    linux-docker-logs-clean
+   linux-isc-dhcp-server
    linux-lc-all-unset
    linux-megacli
    linux-mysql-operations
