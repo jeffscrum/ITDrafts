@@ -187,12 +187,6 @@ Exadata NFS ReImage
    2020-03-10 15:50:44 +0300 2020-03-10 15:50:44 +0300 [FACTORY_TEST_END] Post installation tests ended with success
    2020-03-10 15:50:44 +0300 2020-03-10 15:50:44 +0300 [FACTORY_COMPLETE] Imaging ended with success
 
-Очищаем все временные файлы, которые сервер использовал для установки:
-
-.. code-block:: bash
-
-   /opt/oracle.SupportTools/reclaimdisks.sh -free -reclaim
-
 Со STORAGE-серверами у меня было так, что последняя проверка проходила неудачно и тогда сервер писал вот так:
 
 .. code-block:: none
@@ -205,13 +199,32 @@ Exadata NFS ReImage
 Ничего страшного, перезагружаем сервер.
 После перезагрузки сервер через некоторое время ещё раз запустит все необходимые проверки и напишет что все OK.
 
-Теперь можно переходить к установке БД, настройке GRID и ASM. Возможно я опишу этот процесс в дальнейшем, но пока остановимся на этом.
-
 .. note::
 
    Скрипты, которые запускает сервер для своих проверок:
      * Command line is ``/opt/oracle.cellos/validations/bin/vldrun.pl -quiet -all``
      * Command line is ``/opt/oracle.cellos/validations/bin/vldrun.pl -mode first_boot -force -quiet -all``
+
+Этап VI. После инсталляции
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+После того как сервера проинсталлированы, нужно сдлеать еще несколько операций.
+
+Очищаем все временные файлы, которые сервер использовал для установки (на db):
+
+.. code-block:: bash
+
+   /opt/oracle.SupportTools/reclaimdisks.sh -free -reclaim
+
+Создаем ssh-ключ для пользователя root при помощи `ssh-keygen` и настраиваем беспарольную аутентификацию c db серверов (на вопрос о ключе говорим, что перезаписывать его не нужно):
+
+.. code-block:: bash
+
+   /opt/oracle.SupportTools/setup_ssh_eq.sh dbs_group root welcome1
+   /opt/oracle.SupportTools/setup_ssh_eq.sh cell_group root welcome1
+
+Теперь можно переходить к установке БД, настройке GRID и ASM. Возможно я опишу этот процесс в дальнейшем, но пока остановимся на этом.
+
 
 ----------
 
