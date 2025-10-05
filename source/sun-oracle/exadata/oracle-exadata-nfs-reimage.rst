@@ -10,7 +10,7 @@ Exadata NFS ReImage
 .. note::
 	
    * Exadata X2-X6 - BIOS-Based System
-   * Exadata X7-X8 - UEFI-Based System
+   * Exadata X7-X9M - UEFI-Based System
 
 .. note:: 
 
