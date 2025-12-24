@@ -14,3 +14,4 @@ Hardware Components of Oracle Exadata
    exadata-hw-components/oracle-exadata-hw-components-by-model
    exadata-hw-components/oracle-exadata-compute-servers-components
    exadata-hw-components/oracle-exadata-storage-servers-components
+   exadata-hw-components/oracle-exadata-hw-spare-kit
