@@ -126,3 +126,8 @@ Oracle Exadata Database Machine X2-2 and X2-8 (QR)
 -  1 x 600 GB 15k RPM High Performance SAS disks or 1 x 3 TB 7.2k RPM High Capacity SAS disks
 -  1 x 96 GB Exadata Smart Flash Cache card
 -  4 x 5 m InfiniBand cables
+
+
+----
+
+Parent topic: `Spares Kit Components for Oracle Exadata Database Machine <https://docs.oracle.com/en/engineered-systems/exadata-database-machine/dbmso/spares-kit-components-oracle-exadata-database-machine.html>`_
