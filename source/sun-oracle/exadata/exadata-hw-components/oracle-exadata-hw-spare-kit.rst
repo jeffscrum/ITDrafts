@@ -2,8 +2,8 @@
 
 .. _oracle-exadata-hw-spare-kit:
 
-Spares Kit Components for Exadata
-=================================
+Oracle Exadata Spares Kit Components
+====================================
 
 * FR -- Full Rack
 * HR -- Half Rack
