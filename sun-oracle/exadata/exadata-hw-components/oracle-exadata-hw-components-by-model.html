@@ -1,0 +1,838 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="exadata, intel, amd, epyc, configuration, components, servers, compute, db, pmem, hardware" name="keywords" />
+    <link rel="icon" type="image/x-icon" href="../../../_static/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16" type="image/png" href="../../../_static/favicon/favicon-16x16.png">
+    <link rel="icon" sizes="32x32" type="image/png" href="../../../_static/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="../../../_static/favicon/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oracle Exadata Database Machine Hardware Components by Model &mdash; Ёжъ</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=15bf8b30" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+
+  
+    <link rel="canonical" href="https://kb.ksomov.ru/sun-oracle/exadata/exadata-hw-components/oracle-exadata-hw-components-by-model.html" />
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=7f41d439"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Oracle Exadata Database Server Hardware Components" href="oracle-exadata-compute-servers-components.html" />
+    <link rel="prev" title="Hardware Components of Oracle Exadata" href="../oracle-exadata_hw_components.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Ёжъ
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">IT</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../asterisk/index.html">Asterisk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../brocade/index.html">Brocade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../emc/index.html">EMC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../bsd/index.html">FreeBSD &amp; OpenBSD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../hds/index.html">HDS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../homeassistant/index.html">Smart Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ibm/index.html">IBM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../linux/index.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../mac/index.html">Mac OS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../matrix/index.html">Matrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../mikrotik/index.html">Mikrotik</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Sun &amp; Oracle</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#exadata">Exadata</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-cabling-table.html">Cabling Tables for Oracle Exadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-fmod-position.html">FMod positions (Flash-card)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-get-serial.html">Как найти серийный номер Exadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-host_access_control.html">Настройки безопасности на Exadata при помощи host_access_control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-lacp.html">Exadata LACP Configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-nfs-reimage.html">Exadata NFS ReImage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-optane-pmem.html">Intel Optane Persistent Memory Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-pxe-reimage.html">Exadata PXE ReImage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-root-unlock.html">Temporary User Lockout On Exadata</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../oracle-exadata_hw_components.html">Hardware Components of Oracle Exadata</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Oracle Exadata Database Machine Hardware Components by Model</a></li>
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-compute-servers-components.html">Oracle Exadata Database Server Hardware Components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-storage-servers-components.html">Oracle Exadata Storage Server Hardware Components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-hw-spare-kit.html">Oracle Exadata Spares Kit Components</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-zdlra-extend-fs.html">How to extend filesystem on Exadata &amp; ZDLRA</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#hardware">Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#software">Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#solaris">Solaris</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../uncategorized/index.html">Uncategorized</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../vyos/index.html">VyOS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tasks/index.html">Планы работ</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tourism</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tourism/index.html">Обо всем на свете</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Recipes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../recipes/index.html">Рецепты</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Ёжъ</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Sun &amp; Oracle</a></li>
+          <li class="breadcrumb-item"><a href="../oracle-exadata_hw_components.html">Hardware Components of Oracle Exadata</a></li>
+      <li class="breadcrumb-item active">Oracle Exadata Database Machine Hardware Components by Model</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/jeffscrum/itdrafts/blob/master/source/sun-oracle/exadata/exadata-hw-components/oracle-exadata-hw-components-by-model.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="oracle-exadata-database-machine-hardware-components-by-model">
+<span id="oracle-exadata-hw-components-by-model"></span><span id="index-0"></span><h1>Oracle Exadata Database Machine Hardware Components by Model<a class="headerlink" href="#oracle-exadata-database-machine-hardware-components-by-model" title="Link to this heading"></a></h1>
+<section id="oracle-exadata-database-machine-flexible-configurations">
+<h2>Oracle Exadata Database Machine Flexible Configurations<a class="headerlink" href="#oracle-exadata-database-machine-flexible-configurations" title="Link to this heading"></a></h2>
+<p>These tables list the components included for each type of Oracle Exadata Database Machine model and configuration.</p>
+<p>In the following tables, for raw capacity, 1 GB = 1 billion bytes. Capacity is calculated using normal space terminology of 1 TB = 1024 * 1024 * 1024 * 1024 bytes. Actual formatted capacity is less.</p>
+<p>The following table describes the flexible configurations for various Exadata system models.</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Model</p></td>
+<td><p>Base Configuration</p></td>
+<td><p>Flexible Configurations</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X11M</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X11M database servers</p></li>
+<li><p>3 Exadata X11M storage servers</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 19 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 15 database servers</p></li>
+<li><p>Minimum of 3 storage servers, maximum of 17 storage servers</p></li>
+<li><p>An extra RoCE Network Fabric Switch can be installed for combining racks.</p></li>
+<li><p>Extra network cards can be installed if you require additional connectivity for client networks, or for separate networks.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database servers. Memory expansion kit is not available for the storage servers.</p></li>
+<li><p>A disk expansion kit can be installed to increase local disk storage on the database server.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X10M</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X10M database servers</p></li>
+<li><p>3 Exadata X10M storage servers</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 450.2 TB for Extreme Flash (EF), or 81.6 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 792 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 19 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 15 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, can add 2 or more Extended (XT) servers or additional High Capacity (HC) or Extreme Flash (EF) storage servers for a maximum of 17 storage servers</p></li>
+<li><p>An extra RoCE Network Fabric Switch can be installed for combining racks.</p></li>
+<li><p>Extra network cards can be installed if you require additionalconnectivity for client networks, or for separate networks.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database servers. Memory expansion kit is not available for the storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X9M-2</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X9M-2 database servers</p></li>
+<li><p>3 Exadata X9M-2 storage servers</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 648 TB for High Capacity (HC)</p></li>
+<li><p>Persistent memory capacity: 4.5 TB</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 22 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 19 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, can add 2 or more Extended (XT) servers or additional High Capacity (HC) or Extreme Flash (EF) storage servers for a maximum of 18 storage servers</p></li>
+<li><p>An extra RoCE Network Fabric Switch can be installed for combining racks.</p></li>
+<li><p>An extra network card can be installed if you require additional connectivity for client networks, or for a separate network.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database servers. Memory expansion kit is not available for the storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X8M-2</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8M-2 database servers</p></li>
+<li><p>3 Exadata X8M-2 storage servers</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 504 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 22 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 19 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, can add 2 or more Extended (XT) servers or additional High Capacity (HC) or Extreme Flash (EF) storage servers for a maximum of 18 storage servers</p></li>
+<li><p>An extra RoCE Network Fabric Switch can be installed for combining racks.</p></li>
+<li><p>An extra network card can be installed if you require additional connectivity for client networks, or for a separate network.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database servers. Memory expansion kit is not available for the storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X8-2</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8-2 database servers</p></li>
+<li><p>3 Exadata X8-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 504 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 22 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 19 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, can add 2 or more Extended (XT) servers or additional High Capacity (HC) or Extreme Flash (EF) storage servers for a maximum of 18 storage servers</p></li>
+<li><p>An extra InfiniBand leaf switch can be installed for combining racks.</p></li>
+<li><p>An extra network card can be installed if you require additional connectivity for client networks, or for a separate network.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database or storage servers. Memory expansion kit is not available for the Extended (XT) storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X7-2</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X7-2 database servers</p></li>
+<li><p>3 Exadata X7-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 360 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 22 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 19 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, maximum of 18 storage servers</p></li>
+<li><p>An extra InfiniBand leaf switch can be installed for combining racks.</p></li>
+<li><p>An extra network card can be installed if you require additional connectivity for client networks, or for a separate network.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database or storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X6-2</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X6-2 database servers</p></li>
+<li><p>3 Exadata X6-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 76.8 TB for Extreme Flash (EF), or 38.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 288 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>Maximum of 22 servers (database and storage) in a rack</p></li>
+<li><p>Minimum of 2 database servers, maximum of 19 database servers</p></li>
+<li><p>Minimum of 3 High Capacity (HC) or Extreme Flash (EF) storage servers, maximum of 18 storage servers</p></li>
+<li><p>An extra InfiniBand leaf switch can be installed for combining racks.</p></li>
+<li><p>An extra network card can be installed if you require additional connectivity for client networks, or for a separate network.</p></li>
+<li><p>A memory expansion kit can be installed to increase memory capacity for the database or storage servers.</p></li>
+<li><p>A disk expansion kit can be used to upgrade disk storage of the database server, which increases the usable disk capacity of the database server, for use by Oracle Homes or other local disk requirements.</p></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="components-of-oracle-exadata-database-machine-in-fixed-configurations">
+<h2>Components of Oracle Exadata Database Machine in Fixed Configurations<a class="headerlink" href="#components-of-oracle-exadata-database-machine-in-fixed-configurations" title="Link to this heading"></a></h2>
+<p>The following table describes the fixed configurations (Full Rack, Half Rack, Quarter Rack, and Eighth Rack) for Oracle Exadata Database Machine.</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Edition</p></td>
+<td><p>Oracle Exadata Database Machine Full Rack</p></td>
+<td><p>Oracle Exadata Database Machine Half Rack</p></td>
+<td><p>Oracle Exadata Database Machine Quarter Rack</p></td>
+<td><p>Oracle Exadata Database Machine Eighth Rack</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X10M</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X10M Eighth Rack database servers. Each server has 1 x 32-core processor with all 32 cores enabled</p></li>
+<li><p>3 Exadata X10M Eighth Rack storage servers. Each server has 1 x 32-core processors and contains the following storage:</p></li>
+<li><p>6 x 22 TB 7,200 RPM high capacity disks.</p></li>
+<li><p>2 PCI flash cards, each with 6.8 TB of raw flash storage.</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (1- phase or 3- phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 40.8 TB</p></li>
+<li><p>Raw hard disk capacity: 396 TB</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X9M-2</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X9M-2 database servers. Each server has 1 x 32-core processor with all 32 cores enabled</p></li>
+<li><p>3 Exadata X9M-2 storage servers. Each server has 2 x 16-core processors and contains the following storage:</p></li>
+<li><p>6 x 18 TB 7,200 RPM high capacity disks.</p></li>
+<li><p>2 PCI flash cards, each with 6.4 TB of raw flash storage.</p></li>
+<li><p>768 GB of persistent memory</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (1- phase or 3- phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 38.4 TB</p></li>
+<li><p>Raw hard disk capacity: 324 TB</p></li>
+<li><p>Persistent memory capacity: 2.3 TB</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X9M-8</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X9M-8 database servers. An additional database server can be added.</p></li>
+<li><p>14 Exadata X9M-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 3024 TB for High Capacity (HC)</p></li>
+<li><p>Persistent memory capacity: 21 TB</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 Exadata X9M-8 database servers. An additional database server can be added.</p></li>
+<li><p>3 Exadata X9M-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 RoCE Network Fabric Switches. An extra switch can be installed for combining racks.</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 648 TB for High Capacity (HC)</p></li>
+<li><p>Persistent memory capacity: 4.5 TB</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X8M-2</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8M-2 database servers. Each server has 1x 24-core processor with all 24-cores enabled.</p></li>
+<li><p>3 Exadata X8M-2 storage servers, either High Capacity or Extreme Flash. Each server has 2 x 16-core processors, each with 8 cores enabled.</p></li>
+<li><p>High Capacity (HC) storage servers have 2 PCI flash cards, each with 6.4 TB (raw) Smart Flash Cache and 6 x 14 TB 7,200 RPM high capacity disks</p></li>
+<li><p>Extreme Flash (EF) storage servers have 4 PCI flash cards, each with 6.4 TB (raw) storage.</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 76.8 TB for Extreme Flash (EF), or 38.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 180 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X8M-8</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8M-8 database servers. An additional database server can be added.</p></li>
+<li><p>14 Exadata X8M-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 RoCE Network Fabric Switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 2352 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 Exadata X8M-8 database servers. An additional database server can be added.</p></li>
+<li><p>3 Exadata X8M-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 RoCE Network Fabric Switches. An extra switch can be installed for combining racks.</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 Management Network Switch</p></li>
+<li><p>Raw flash capacity: 153.3 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 504 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X8-2</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8-2 database servers. Each server has 1x 24-core processor with all 24-cores enabled.</p></li>
+<li><p>3 Exadata X8-2 storage servers, either High Capacity or Extreme Flash. Each server has 2 x 16-core processors, each with 8 cores enabled.</p></li>
+<li><p>High Capacity (HC) storage servers have 2 PCI flash cards, each with 6.4 TB (raw) Smart Flash Cache and 6 x 14 TB 7,200 RPM high capacity disks</p></li>
+<li><p>Extreme Flash (EF) storage servers have 4 PCI flash cards, each with 6.4 TB (raw) storage.</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 9348 Ethernet switch.</p></li>
+<li><p>Raw flash capacity: 76.8 TB for Extreme Flash (EF), or 38.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 180 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X8-8</p></td>
+<td><ul class="simple">
+<li><p>2 Exadata X8-8 database servers. An additional database server can be added.</p></li>
+<li><p>14 Exadata X8-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches.</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 9348 Ethernet switch.</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 2352 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 Exadata X8-8 database servers. An additional database server can be added.</p></li>
+<li><p>3 Exadata X8-2 storage servers, either High Capacity or Extreme Flash</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches. An extra InfiniBand leaf switch can be installed for combining racks.</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 2352 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X7-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X7-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 1680 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X7-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 358.4 TB for Extreme Flash (EF), or 179.2 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 840 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X7-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 153.6 TB for Extreme Flash (EF), or 76.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 360 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers. Each server has 1x 24-core processor with all 24-cores enabled.</p></li>
+<li><p>3 Exadata X7-2 storage servers, either High Capacity or Extreme Flash. Each server has 2 x 10-core processors, each with 5 cores enabled.</p></li>
+<li><p>High Capacity (HC) storage servers have 2 PCI flash cards, each with 6.4 TB (raw) Smart Flash Cache and 6 x 10 TB 7,200 RPM high capacity disks</p></li>
+<li><p>Extreme Flash (EF) storage servers have 8 PCI flash cards, 4 enabled, each with 3.2 TB (raw) storage.</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1x 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 76.8 TB for Extreme Flash (EF), or 38.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 180 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X7-8</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X7-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Nexus 93108-1G or 9348 Ethernet switch</p></li>
+<li><p>Raw flash capacity: 716.8 TB for Extreme Flash (EF), or 358.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 1680 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X6-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X6-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 358.4 TB for Extreme Flash (EF), or179.2 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 1344 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X6-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 179.2 TB for Extreme Flash (EF), or 89.6 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 672 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X6-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 76.8 TB for Extreme Flash (EF), or 38.4 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 288 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers. Each server has 2 x22-core processors, each with 11 cores enabled.</p></li>
+<li><p>3 Exadata X6-2 storage servers. Each server has2x 10-core processors, with 5 cores enabled.</p></li>
+<li><p>High Capacity (HC) storage servers have 2 PCI flash cards, each with 3.2 TB (raw) Smart Flash Cache and 6 x 8 TB 7,200 RPM high capacity disks.</p></li>
+<li><p>Extreme Flash (EF) storage servers have 8 PCI flash cards, 4 enabled, each with 3.2 TB (raw) storage.</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36 switches</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 38.4 TB for Extreme Flash (EF), or 19.2 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 144 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X5-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X5-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 179.2 TB for Extreme Flash (EF), or 89.6 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 1344 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X5-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 89.6 TB for Extreme Flash (EF), or 44.8 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 672 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X5-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 38.4 TB for Extreme Flash (EF), or 19.2 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 288 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers. Each server has 2 18-core processors, each with 9 cores enabled</p></li>
+<li><p>3 Exadata X5-2 storage servers. Each server has:
+- 2 eight-core processors, each with 4 cores enabled
+- 4 PCI flash cards, 2 enabled, each with 1.6 TB (raw) Smart Flash Cache and 12 x 8 TB 7,200 RPM High Capacity (HC) disks, OR
+- 8 PCI flash drives, 4 enabled, each with 1.6 TB (raw) storage</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (1 phase or 3 phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 19.2 TB for Extreme Flash (EF), or 9.6 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 144 TB for High Capacity (HC) disks</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X5-8
+Oracle Exadata Database Machine X6-8</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X5-2 storage servers (X6-2 for X6-8)</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 179.2 TB for Extreme Flash (EF), or 89.6 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 1344 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X5-2 storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>Raw flash capacity: 38.4 TB for Extreme Flash (EF), or 19.2 TB for High Capacity (HC)</p></li>
+<li><p>Raw hard disk capacity: 288 TB for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X4-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X4-2L storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>44.8 TB of raw flash capacity</p></li>
+<li><p>200 TB raw storage capacity for high performance disks, or 672 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X4-2L storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>22.4 TB of raw flash capacity</p></li>
+<li><p>100 TB raw storage capacity for high performance disks, or 386 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X4-2L storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>9.6 TB of raw flash capacity</p></li>
+<li><p>43.2 TB raw storage capacity for high performance disks, or 144 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X4-2L storage servers. Each server has:
+- 2 six-core processors
+- 12 x 1.2 TB 10,000 RPM High Performance disks, OR
+- 12 x 4 TB 7,200 RPM High Capacity disks</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>4.8 TB of raw flash capacity</p></li>
+<li><p>21.6 TB raw storage capacity for high performance disks, or 72 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X4-8 Full Rack</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X4-2L storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>44.8 TB of raw flash capacity</p></li>
+<li><p>200 TB raw storage capacity for high performance disks, or 672 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X3-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X3-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>22.4 TB of raw flash capacity</p></li>
+<li><p>100 TB raw storage capacity for high performance disks, or 504 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X3-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36 (Oracle Exadata Database Machine Half Rack based on Sun Fire X4170 Oracle Database Servers includes two Sun Datacenter InfiniBand Switch 36 switches.)</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>11.2 TB of raw flash capacity</p></li>
+<li><p>50 TB raw storage capacity for high performance disks, or 252 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>2 database servers
+3 Exadata X3-2 storage servers
+2 Sun Datacenter InfiniBand Switch 36
+2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)
+1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch
+4.8 TB of raw flash capacity
+21.6 TB raw storage capacity for high performance disks, or 108 TB raw capacity for High Capacity (HC)</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>3 Exadata X3-2 storage servers
+- 2 six-core processors, each with 3 cores enabled
+- 12 PCI flash cards (6 cards enabled) with 2.4 TB Exadata Smart Flash Cache
+- 18 x 600 GB 15,000 RPM High Performance disks, OR 18 x 3 TB 7,200 RPM High Capacity disks (6 disks per storage server enabled)</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>2.4 TB of raw flash capacity</p></li>
+<li><p>10.8 TB raw storage capacity for high performance disks, or 54 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X3-8 Full Rack with Exadata X4-2L storage servers</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X4-2L storage servers</p></li>
+<li><p>2 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 24 kVA PDUs (three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>44.8 TB of raw flash capacity</p></li>
+<li><p>200 TB raw storage capacity for high performance disks, or 672 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X3-8 Full Rack with Exadata X3-2 storage servers</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X3-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 24 kVA PDUs (three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948E-F, model number WS-C4948E-F-S Ethernet switch</p></li>
+<li><p>22.4 TB of raw flash capacity</p></li>
+<li><p>100 TB raw storage capacity for high performance disks, or 504 TB raw capacity for High Capacity (HC)</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-odd"><td><p>Oracle Exadata Database Machine X2-2</p></td>
+<td><ul class="simple">
+<li><p>8 database servers</p></li>
+<li><p>14 Exadata X2-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>Keyboard, video, and mouse (KVM) hardware</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948, model number WS-C4948-S Ethernet switch</p></li>
+<li><p>5.3 TB of raw flash capacity</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>4 database servers</p></li>
+<li><p>7 Exadata X2-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36 (Oracle Exadata Database Machine Half Rack based on Sun Fire X4170 Oracle Database Servers includes two Sun Datacenter InfiniBand Switch 36 switches.)</p></li>
+<li><p>Keyboard, video, and mouse (KVM) hardware</p></li>
+<li><p>2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948, model number WS-C4948-S Ethernet switch</p></li>
+<li><p>2.6 TB of raw flash capacity</p></li>
+</ul>
+</td>
+<td><p>2 database servers
+3 Exadata X2-2 storage servers
+2 Sun Datacenter InfiniBand Switch 36
+Keyboard, video, and mouse (KVM) hardware
+2 redundant 15 kVA PDUs (single phase or three phase, high voltage or low voltage)
+1 48-port Cisco Catalyst 4948, model number WS-C4948-S Ethernet switch
+1.1 TB of raw flash capacity</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+<tr class="row-even"><td><p>Oracle Exadata Database Machine X2-8 Full Rack</p></td>
+<td><ul class="simple">
+<li><p>2 database servers</p></li>
+<li><p>14 Exadata X2-2 storage servers</p></li>
+<li><p>3 Sun Datacenter InfiniBand Switch 36</p></li>
+<li><p>2 redundant 24 kVA PDUs (three phase, high voltage or low voltage)</p></li>
+<li><p>1 48-port Cisco Catalyst 4948, model number WS-C4948-S Ethernet switch</p></li>
+<li><p>5.3 TB of raw flash capacity</p></li>
+</ul>
+</td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+<td><p>Not applicable</p></td>
+</tr>
+</tbody>
+</table>
+<p>Parent topic: <a class="reference external" href="https://docs.oracle.com/en/engineered-systems/exadata-database-machine/dbmso/hardware-components-model.html">Oracle Exadata Database Machine Hardware Components by Model</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../oracle-exadata_hw_components.html" class="btn btn-neutral float-left" title="Hardware Components of Oracle Exadata" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="oracle-exadata-compute-servers-components.html" class="btn btn-neutral float-right" title="Oracle Exadata Database Server Hardware Components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Jeff Scrum.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

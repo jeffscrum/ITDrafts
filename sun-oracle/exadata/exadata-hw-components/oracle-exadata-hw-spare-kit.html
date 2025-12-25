@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="../../../_static/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16" type="image/png" href="../../../_static/favicon/favicon-16x16.png">
+    <link rel="icon" sizes="32x32" type="image/png" href="../../../_static/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="../../../_static/favicon/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oracle Exadata Spares Kit Components &mdash; Ёжъ</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=15bf8b30" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+
+  
+    <link rel="canonical" href="https://kb.ksomov.ru/sun-oracle/exadata/exadata-hw-components/oracle-exadata-hw-spare-kit.html" />
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=7f41d439"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="How to extend filesystem on Exadata &amp; ZDLRA" href="../oracle-exadata-zdlra-extend-fs.html" />
+    <link rel="prev" title="Oracle Exadata Storage Server Hardware Components" href="oracle-exadata-storage-servers-components.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Ёжъ
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">IT</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../asterisk/index.html">Asterisk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../brocade/index.html">Brocade</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../emc/index.html">EMC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../bsd/index.html">FreeBSD &amp; OpenBSD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../hds/index.html">HDS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../homeassistant/index.html">Smart Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ibm/index.html">IBM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../linux/index.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../mac/index.html">Mac OS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../matrix/index.html">Matrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../mikrotik/index.html">Mikrotik</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Sun &amp; Oracle</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#exadata">Exadata</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-cabling-table.html">Cabling Tables for Oracle Exadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-fmod-position.html">FMod positions (Flash-card)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-get-serial.html">Как найти серийный номер Exadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-host_access_control.html">Настройки безопасности на Exadata при помощи host_access_control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-lacp.html">Exadata LACP Configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-nfs-reimage.html">Exadata NFS ReImage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-optane-pmem.html">Intel Optane Persistent Memory Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-pxe-reimage.html">Exadata PXE ReImage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-root-unlock.html">Temporary User Lockout On Exadata</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../oracle-exadata_hw_components.html">Hardware Components of Oracle Exadata</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-hw-components-by-model.html">Oracle Exadata Database Machine Hardware Components by Model</a></li>
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-compute-servers-components.html">Oracle Exadata Database Server Hardware Components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="oracle-exadata-storage-servers-components.html">Oracle Exadata Storage Server Hardware Components</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Oracle Exadata Spares Kit Components</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../oracle-exadata-zdlra-extend-fs.html">How to extend filesystem on Exadata &amp; ZDLRA</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#hardware">Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#software">Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#solaris">Solaris</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../uncategorized/index.html">Uncategorized</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../vyos/index.html">VyOS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tasks/index.html">Планы работ</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tourism</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tourism/index.html">Обо всем на свете</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Recipes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../recipes/index.html">Рецепты</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Ёжъ</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Sun &amp; Oracle</a></li>
+          <li class="breadcrumb-item"><a href="../oracle-exadata_hw_components.html">Hardware Components of Oracle Exadata</a></li>
+      <li class="breadcrumb-item active">Oracle Exadata Spares Kit Components</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/jeffscrum/itdrafts/blob/master/source/sun-oracle/exadata/exadata-hw-components/oracle-exadata-hw-spare-kit.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="oracle-exadata-spares-kit-components">
+<span id="oracle-exadata-hw-spare-kit"></span><span id="index-0"></span><h1>Oracle Exadata Spares Kit Components<a class="headerlink" href="#oracle-exadata-spares-kit-components" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>FR – Full Rack</p></li>
+<li><p>HR – Half Rack</p></li>
+<li><p>QR – Quarter Rack</p></li>
+<li><p>ER – Eighth Rack</p></li>
+</ul>
+<section id="oracle-exadata-database-machine-x11m">
+<h2>Oracle Exadata Database Machine X11M<a class="headerlink" href="#oracle-exadata-database-machine-x11m" title="Link to this heading"></a></h2>
+<p>Note: No spares kit is included with Oracle Exadata Database Machine X11M.
+Spare hard disk drives and flash devices may be purchased separately.</p>
+</section>
+<section id="oracle-exadata-database-machine-x10m">
+<h2>Oracle Exadata Database Machine X10M<a class="headerlink" href="#oracle-exadata-database-machine-x10m" title="Link to this heading"></a></h2>
+<p>Note: No spares kit is included with Oracle Exadata Database Machine X10M.
+Spare hard disk drives and flash devices may be purchased separately.</p>
+</section>
+<section id="oracle-exadata-database-machine-x9m-2-and-x9m-8">
+<h2>Oracle Exadata Database Machine X9M-2 and X9M-8<a class="headerlink" href="#oracle-exadata-database-machine-x9m-2-and-x9m-8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 18 TB disk for High Capacity storage servers only</p></li>
+<li><p>1 x 6.4 TB NVMe PCI Flash card</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x8m-2-x8m-8-x8-2-and-x8-8">
+<h2>Oracle Exadata Database Machine X8M-2, X8M-8, X8-2, and X8-8<a class="headerlink" href="#oracle-exadata-database-machine-x8m-2-x8m-8-x8-2-and-x8-8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 14 TB SAS disk for High Capacity storage servers only</p></li>
+<li><p>1 x Flash Accelerator F640 or F640v2 PCIe card</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x7-2-and-x7-8">
+<h2>Oracle Exadata Database Machine X7-2 and X7-8<a class="headerlink" href="#oracle-exadata-database-machine-x7-2-and-x7-8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 10 TB 7.2k RPM SAS disk for High Capacity storage servers only</p></li>
+<li><p>1 x Flash Accelerator F640 PCIe card</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x6-2">
+<h2>Oracle Exadata Database Machine X6-2<a class="headerlink" href="#oracle-exadata-database-machine-x6-2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 8 TB 7.2k RPM High Capacity SAS disk</p></li>
+<li><p>1 x flash accelerator F320 PCIe card for high capacity storage servers only</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x5-2">
+<h2>Oracle Exadata Database Machine X5-2<a class="headerlink" href="#oracle-exadata-database-machine-x5-2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 8 TB 7.2k RPM High Capacity SAS disk</p></li>
+<li><p>1 x flash accelerator F160 PCIe card for high capacity storage servers only</p></li>
+<li><p>1 x 1.6 TB solid-state drive for extreme flash storage servers only</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x5-8-and-x6-8">
+<h2>Oracle Exadata Database Machine X5-8 and X6-8<a class="headerlink" href="#oracle-exadata-database-machine-x5-8-and-x6-8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 8 TB 7.2k RPM High Capacity SAS disk</p></li>
+<li><p>1 x flash accelerator F160 PCIe card for high capacity storage servers only</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x4-2">
+<h2>Oracle Exadata Database Machine X4-2<a class="headerlink" href="#oracle-exadata-database-machine-x4-2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 1.2 TB 10k RPM High Performance SAS disks or 1 x 4 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 800 GB Exadata Smart Flash Cache card</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x4-8">
+<h2>Oracle Exadata Database Machine X4-8<a class="headerlink" href="#oracle-exadata-database-machine-x4-8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 1.6 TB NVMe PCIe 3.0 High Performance or 1 x 4 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x flash accelerator F160 PCIe card for high capacity storage servers only</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x3-2-fr">
+<h2>Oracle Exadata Database Machine X3-2 (FR)<a class="headerlink" href="#oracle-exadata-database-machine-x3-2-fr" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>2 x 600 GB 15k RPM High Performance SAS disks or 2 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>2 x 400 GB Exadata Smart Flash Cache cards</p></li>
+<li><p>6 x 3 m, and 10 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x3-2-hr">
+<h2>Oracle Exadata Database Machine X3-2 (HR)<a class="headerlink" href="#oracle-exadata-database-machine-x3-2-hr" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 600 GB 15k RPM High Performance SAS disks or 1 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 400 GB Exadata Smart Flash Cache card</p></li>
+<li><p>6 x 3 m, and 10 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x3-2-qr-er">
+<h2>Oracle Exadata Database Machine X3-2 (QR, ER)<a class="headerlink" href="#oracle-exadata-database-machine-x3-2-qr-er" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 600 GB 15k RPM High Performance SAS disks or 1 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 400 GB Exadata Smart Flash Cache card</p></li>
+<li><p>4 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x3-8-fr-with-x4-2l-storage-servers">
+<h2>Oracle Exadata Database Machine X3-8 (FR) with X4-2L Storage Servers<a class="headerlink" href="#oracle-exadata-database-machine-x3-8-fr-with-x4-2l-storage-servers" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 1.2 TB 10k RPM High Performance SAS disks or 1 x 4 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 400 GB Exadata Smart Flash Cache card</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x3-8-fr-with-x3-2-storage-servers">
+<h2>Oracle Exadata Database Machine X3-8 (FR) with X3-2 Storage Servers<a class="headerlink" href="#oracle-exadata-database-machine-x3-8-fr-with-x3-2-storage-servers" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>2 x 600 GB 15k RPM High Performance SAS disks or 2 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>2 x 400 GB Exadata Smart Flash Cache cards</p></li>
+<li><p>6 x 3 m, and 10 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x2-2-and-x2-8-fr">
+<h2>Oracle Exadata Database Machine X2-2 and X2-8 (FR)<a class="headerlink" href="#oracle-exadata-database-machine-x2-2-and-x2-8-fr" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>2 x 600 GB 15k RPM High Performance SAS disks or 2 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>2 x 96 GB Exadata Smart Flash Cache cards</p></li>
+<li><p>6 x 3 m, and 10 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x2-2-and-x2-8-hr">
+<h2>Oracle Exadata Database Machine X2-2 and X2-8 (HR)<a class="headerlink" href="#oracle-exadata-database-machine-x2-2-and-x2-8-hr" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 600 GB 15k RPM High Performance SAS disks or 1 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 96 GB Exadata Smart Flash Cache card</p></li>
+<li><p>6 x 3 m, and 10 x 5 m InfiniBand cables</p></li>
+</ul>
+</section>
+<section id="oracle-exadata-database-machine-x2-2-and-x2-8-qr">
+<h2>Oracle Exadata Database Machine X2-2 and X2-8 (QR)<a class="headerlink" href="#oracle-exadata-database-machine-x2-2-and-x2-8-qr" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1 x 600 GB 15k RPM High Performance SAS disks or 1 x 3 TB 7.2k RPM High Capacity SAS disks</p></li>
+<li><p>1 x 96 GB Exadata Smart Flash Cache card</p></li>
+<li><p>4 x 5 m InfiniBand cables</p></li>
+</ul>
+<hr class="docutils" />
+<p>Parent topic: <a class="reference external" href="https://docs.oracle.com/en/engineered-systems/exadata-database-machine/dbmso/spares-kit-components-oracle-exadata-database-machine.html">Spares Kit Components for Oracle Exadata Database Machine</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="oracle-exadata-storage-servers-components.html" class="btn btn-neutral float-left" title="Oracle Exadata Storage Server Hardware Components" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../oracle-exadata-zdlra-extend-fs.html" class="btn btn-neutral float-right" title="How to extend filesystem on Exadata &amp; ZDLRA" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Jeff Scrum.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
