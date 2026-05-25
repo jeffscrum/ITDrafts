@@ -169,6 +169,7 @@ Exadata NFS ReImage
 
 .. code-block:: none
 
+   set /SP/cli timeout=0
    set /SP/services/kvms/host_storage_device/remote/ server_URI=nfs://192.168.1.254:/export/compute.iso
    set /SP/services/kvms/host_storage_device/remote/ server_URI=nfs://192.168.1.254:/export/cell.iso
    set /SP/services/kvms/host_storage_device/ mode=remote
