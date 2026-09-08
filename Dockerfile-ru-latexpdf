@@ -28,7 +28,7 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 
 RUN python3 -m pip install --no-cache-dir -U pip
-RUN python3 -m pip install --no-cache-dir Sphinx==5.2.2 Pillow
+RUN python3 -m pip install --no-cache-dir Sphinx==9.0.4 Pillow
 
 ADD requirements.txt /docs
 RUN pip install --upgrade pip && pip install -r /docs/requirements.txt
