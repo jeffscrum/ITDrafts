@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, time-machine, backup, speed, sysctl
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, time-machine, backup, speed, sysctl
 
 .. _macos-speedup-time-machine:
 

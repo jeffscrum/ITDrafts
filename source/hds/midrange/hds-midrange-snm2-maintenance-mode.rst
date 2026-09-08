@@ -1,4 +1,7 @@
-.. index:: hds, svp, mpc
+.. index:: hds, snm2, maintenance, mode, svp, mpc
+
+.. meta::
+   :keywords: hds, snm2, maintenance, mode, svp, mpc
 
 .. _hds-midrange-snm2-maintenance-mode:
 

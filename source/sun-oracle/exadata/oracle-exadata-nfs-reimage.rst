@@ -1,4 +1,7 @@
-.. index:: exadata, reimage, nfs
+.. index:: exadata, reimage, nfs, dhcp, oeda, install, ilom
+
+.. meta::
+   :keywords: exadata, reimage, nfs, dhcp, oeda, install, ilom
 
 .. _oracle-exadata-nfs-reimage:
 

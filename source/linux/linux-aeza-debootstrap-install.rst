@@ -1,7 +1,7 @@
-.. index:: linux, debian, debootstrap, aeza, bullseye, bookworm
+.. index:: linux, debian, debootstrap, aeza, bullseye, bookworm, chroot, install
 
 .. meta::
-   :keywords: linux, debian, debootstrap, aeza, bullseye, bookworm
+   :keywords: linux, debian, debootstrap, aeza, bullseye, bookworm, chroot, install
 
 .. _linux-aeza-debootstrap-install:
 

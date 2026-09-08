@@ -1,7 +1,7 @@
-.. index:: ibm, storage, v7000
+.. index:: ibm, storage, v7000, battery, replacement, psu, procedure
 
 .. meta::
-   :keywords: ibm, storage, v7000, battery, replacement
+   :keywords: ibm, storage, v7000, battery, replacement, psu, procedure
 
 .. _ibm-storages-v7000-bat-replace:
 

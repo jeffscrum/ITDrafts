@@ -1,7 +1,7 @@
-.. index:: linux, error
+.. index:: linux, error, locale, environment, perl
 
 .. meta::
-   :keywords: linux, error
+   :keywords: linux, error, locale, environment, perl
 
 .. _linux-lc-all-unset:
 

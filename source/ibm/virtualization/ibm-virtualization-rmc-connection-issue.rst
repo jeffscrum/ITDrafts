@@ -1,7 +1,7 @@
-.. index:: ibm, dlpar, rmc, aix, hmc
+.. index:: ibm, hmc, aix, rmc, dlpar, rsct, connection, error
 
 .. meta::
-   :keywords: ibm, dlpar, rmc, aix, hmc
+   :keywords: ibm, hmc, aix, rmc, dlpar, rsct, connection, error
 
 .. _ibm-virtualization-rmc-connection-issue:
 

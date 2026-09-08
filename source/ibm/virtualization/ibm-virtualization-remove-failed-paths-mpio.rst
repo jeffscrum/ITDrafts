@@ -1,7 +1,7 @@
-.. index:: ibm, aix, missing, path, mpio
+.. index:: ibm, aix, mpio, path, failed, lspath, rmpath, script
 
 .. meta::
-   :keywords: ibm, aix, missing, path, mpio
+   :keywords: ibm, aix, mpio, path, failed, lspath, rmpath, script
 
 .. _ibm-virtualization-remove-failed-paths-mpio:
 

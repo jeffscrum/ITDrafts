@@ -1,8 +1,8 @@
-.. index:: exadata, reimage, pxe
+.. index:: exadata, reimage, pxe, tftp, dhcp
 
 .. meta::
    :description: Exadata PXE ReImage HowTo
-   :keywords: exadata, reimage, pxe, tftp
+   :keywords: exadata, reimage, pxe, tftp, dhcp
 
 .. _oracle-exadata-pxe-reimage:
 

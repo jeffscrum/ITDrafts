@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, sublime, session, sync, dropbox
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, sublime, session, sync, dropbox
 
 .. _macos-sync-unsaved-sublime:
 

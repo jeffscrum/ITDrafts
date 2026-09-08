@@ -1,4 +1,7 @@
-.. index:: homeassistant
+.. index:: homeassistant, hassio, downgrade, update, version, docker
+
+.. meta::
+   :keywords: homeassistant, hassio, downgrade, update, version, docker
 
 .. _homeassistant-downgrade:
 

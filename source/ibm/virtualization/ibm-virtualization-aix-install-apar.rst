@@ -1,7 +1,7 @@
-.. index:: ibm, aix, apar
+.. index:: ibm, aix, apar, emgr, ifix, efix, patch
 
 .. meta::
-   :keywords: ibm, aix, apar
+   :keywords: ibm, aix, apar, emgr, ifix, efix, patch
 
 .. _ibm-virtualization-aix-install-apar:
 

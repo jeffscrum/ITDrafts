@@ -1,4 +1,7 @@
-.. index:: hds, aix, odm
+.. index:: hds, aix, odm, mpio, install, driver
+
+.. meta::
+   :keywords: hds, aix, odm, mpio, install, driver
 
 .. _hds-midrange-aix-odm:
 

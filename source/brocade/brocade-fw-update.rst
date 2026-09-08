@@ -1,7 +1,7 @@
-.. index:: brocade, firmware, san, switch
+.. index:: brocade, firmware, san, switch, update, usb, firmwaredownload
 
 .. meta::
-   :keywords: brocade, firmware, switch, san
+   :keywords: brocade, firmware, san, switch, update, usb, firmwaredownload
 
 .. _brocade-fw-update:
 

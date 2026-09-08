@@ -1,4 +1,7 @@
-.. index:: mediawiki, disqus
+.. index:: mediawiki, disqus, configure
+
+.. meta::
+   :keywords: mediawiki, disqus, configure
 
 .. _mw-configure-disqus-comments:
 

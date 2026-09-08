@@ -1,4 +1,7 @@
-.. index:: emc, vmax
+.. index:: emc, vmax, flexfilter, error-filter, symmwin, driver
+
+.. meta::
+   :keywords: emc, vmax, flexfilter, error-filter, symmwin, driver
 
 .. _vmax-flexfilter-install:
 

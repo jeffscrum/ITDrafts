@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, mac-address, ifconfig, applescript, network
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, mac-address, ifconfig, applescript, network
 
 .. _macos-change-macaddr:
 

@@ -1,5 +1,8 @@
 .. index:: zdlra, exadata, lvm, extend, resize, increase, root, fs
 
+.. meta::
+   :keywords: zdlra, exadata, lvm, extend, resize, increase, root, fs
+
 .. _oracle-exadata-zdlra-extend-fs:
 
 How to extend filesystem on Exadata & ZDLRA

@@ -1,5 +1,8 @@
 .. index:: twiki, wiki, foswiki
 
+.. meta::
+   :keywords: twiki, wiki, foswiki
+
 .. _twiki-installation:
 
 Twiki Installation

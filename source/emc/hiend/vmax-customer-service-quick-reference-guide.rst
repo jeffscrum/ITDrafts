@@ -1,7 +1,7 @@
-.. index:: emc, vmax, service, guide, manual
+.. index:: emc, vmax, service, guide, manual, pdf
 
 .. meta::
-   :keywords: emc, vmax, service, guide, manual
+   :keywords: emc, vmax, service, guide, manual, pdf
 
 .. _vmax-customer-service-quick-reference-guide:
 

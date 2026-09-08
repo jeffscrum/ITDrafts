@@ -1,4 +1,7 @@
-.. index:: emc, vmax, health
+.. index:: emc, vmax, health, script, healthcheck
+
+.. meta::
+   :keywords: emc, vmax, health, script, healthcheck
 
 .. _vmax-healthcheck-script:
 

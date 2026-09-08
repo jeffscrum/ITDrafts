@@ -1,7 +1,7 @@
-.. index:: recipes, chefmarket, roast-beef,rostbif
+.. index:: recipes, chefmarket, roast-beef, rostbif, beef, cranberry, sauce
 
 .. meta::
-   :keywords: recipes, chefmarket, roast-beef,rostbif
+   :keywords: recipes, chefmarket, roast-beef, rostbif, beef, cranberry, sauce
 
 .. _rostbif-tenderloin-and-cranberry-sauce:
 

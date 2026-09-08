@@ -1,7 +1,7 @@
-.. index:: ibm, aix, nodewwn, portwwn
+.. index:: ibm, aix, wwn, nodewwn, portwwn, fc
 
 .. meta::
-   :keywords: ibm, aix, nodewwn, portwwn
+   :keywords: ibm, aix, wwn, nodewwn, portwwn, fc
 
 .. _ibm-virtualization-aix-portwwn-nodewwn:
 

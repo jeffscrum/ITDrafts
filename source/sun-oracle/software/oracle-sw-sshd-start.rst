@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, sshd
+.. index:: oracle, solaris, sshd, ssh, start, service
 
 .. meta::
-   :keywords: oracle, solaris, sshd
+   :keywords: oracle, solaris, sshd, ssh, start, service
 
 .. _oracle-sw-sshd-start:
 

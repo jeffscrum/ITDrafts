@@ -1,7 +1,7 @@
-.. index:: oracle, solaris10, zfs, patch, eis
+.. index:: oracle, solaris10, zfs, patch, eis, snapshot, rollback
 
 .. meta::
-   :keywords: oracle, solaris10, zfs, patch, eis
+   :keywords: oracle, solaris10, zfs, patch, eis, snapshot, rollback
 
 .. _oracle-solaris10-zfs-patching:
 

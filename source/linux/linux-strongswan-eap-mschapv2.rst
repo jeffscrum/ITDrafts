@@ -1,7 +1,7 @@
-.. index:: linux, strongswan, mschapv2, vpn
+.. index:: linux, strongswan, vpn, eap, mschapv2, openssl, build
 
 .. meta::
-   :keywords: linux, strongswan, mschapv2, vpn
+   :keywords: linux, strongswan, vpn, eap, mschapv2, openssl, build
 
 .. _linux-strongswan-eap-mschapv2:
 

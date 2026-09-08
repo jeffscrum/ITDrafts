@@ -1,7 +1,7 @@
-.. index:: exadata, host_access_control, security, ssh, lock, deny, root, password, unsuccessful, login, banner, rootssh, access, pam
+.. index:: exadata, host_access_control, security, ssh, root, access, login, password
 
 .. meta::
-   :keywords: exadata, host_access_control, security, ssh, lock, deny, root, password, unsuccessful, login, banner, rootssh, access, pam
+   :keywords: exadata, host_access_control, security, ssh, root, access, login, password
 
 .. _oracle-exadata-host_access_control:
 

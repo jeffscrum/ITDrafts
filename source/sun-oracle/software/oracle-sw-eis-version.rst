@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, eis
+.. index:: oracle, solaris, eis, patch, version, log
 
 .. meta::
-   :keywords: oracle, solaris, eis
+   :keywords: oracle, solaris, eis, patch, version, log
 
 .. _oracle-sw-eis-version:
 

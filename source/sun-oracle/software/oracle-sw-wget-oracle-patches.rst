@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, wget, patch
+.. index:: oracle, solaris, wget, patch, mos, download
 
 .. meta::
-   :keywords: oracle, solaris, wget, patch
+   :keywords: oracle, solaris, wget, patch, mos, download
 
 .. _oracle-sw-wget-oracle-patches:
 

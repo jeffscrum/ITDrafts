@@ -1,4 +1,7 @@
-.. index:: oracle, mx000, xscf
+.. index:: oracle, mx000, xscf, snapshot, sparc, m10
+
+.. meta::
+   :keywords: oracle, mx000, xscf, snapshot, sparc, m10
 
 .. _oracle-hw-xscf-snapshot:
 

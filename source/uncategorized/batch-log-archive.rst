@@ -1,4 +1,7 @@
-.. index:: linux, backup
+.. index:: linux, backup, log
+
+.. meta::
+   :keywords: linux, backup, log
 
 .. _batch-log-archive:
 

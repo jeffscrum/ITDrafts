@@ -1,7 +1,7 @@
 .. index:: amazon, kindle, send2kindle
 
 .. meta::
-   :keywords: amazon, kindle, send, file, pdf, doc, docx, txt, rtf, htm, html, png, gif, jpg, jpeg, bmp, epub
+   :keywords: amazon, kindle, send2kindle
 
 .. _sendfile2amazon_kindle:
 

@@ -1,7 +1,7 @@
-.. index:: ibm, storage, ds3400, drive, sync, progress
+.. index:: ibm, storage, ds3400, drive, sync, progress, logical-drive, cli
 
 .. meta::
-   :keywords: ibm, storage, ds3400, drive, sync, progress
+   :keywords: ibm, storage, ds3400, drive, sync, progress, logical-drive, cli
 
 .. _ibm-storages-ds3400-resync-progress:
 

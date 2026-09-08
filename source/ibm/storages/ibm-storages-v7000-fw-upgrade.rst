@@ -1,7 +1,7 @@
-.. index:: ibm, storage, fw, upgrade, v7000, storwize, firmware
+.. index:: ibm, storage, v7000, storwize, firmware, upgrade, microcode, cli
 
 .. meta::
-   :keywords: ibm, storage, fw, upgrade, v7000, storwize, firmware
+   :keywords: ibm, storage, v7000, storwize, firmware, upgrade, microcode, cli
 
 .. _storwize-firmware-upgrade:
 

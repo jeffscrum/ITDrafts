@@ -1,7 +1,7 @@
-.. index:: ibm, storage, v7000, dumps, update
+.. index:: ibm, storage, v7000, dumps, cleardumps, firmware, cleanup
 
 .. meta::
-   :keywords: ibm, storage, v7000, dumps, update
+   :keywords: ibm, storage, v7000, dumps, cleardumps, firmware, cleanup
 
 .. _ibm-storages-v7000-cleardumps:
 

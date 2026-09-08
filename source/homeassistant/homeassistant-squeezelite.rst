@@ -1,7 +1,7 @@
-.. index:: squeezelite, raspbian, armbian, linux, lms, Logitech Media Server, multiroom, audio, home assistant
+.. index:: squeezelite, raspbian, armbian, linux, lms, multiroom, audio, home assistant
 
 .. meta::
-   :keywords: squeezelite, raspbian, armbian, linux, lms, Logitech Media Server, multiroom, audio, home assistant
+   :keywords: squeezelite, raspbian, armbian, linux, lms, multiroom, audio, home assistant
 
 .. _homeassistant-squeezelite:
 

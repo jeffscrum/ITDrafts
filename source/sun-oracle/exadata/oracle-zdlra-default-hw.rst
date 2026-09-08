@@ -1,4 +1,7 @@
-.. index:: zdlra, defaut, configuration, exadata
+.. index:: zdlra, default, configuration, exadata, hardware, server
+
+.. meta::
+   :keywords: zdlra, default, configuration, exadata, hardware, server
 
 .. _oracle-exadata-zdlra-default-hw:
 

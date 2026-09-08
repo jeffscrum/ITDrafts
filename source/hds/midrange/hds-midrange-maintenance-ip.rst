@@ -1,4 +1,7 @@
-.. index:: hds, maintenance
+.. index:: hds, maintenance, ip, default, storage
+
+.. meta::
+   :keywords: hds, maintenance, ip, default, storage
 
 .. _hds-midrange-maintenance-ip:
 

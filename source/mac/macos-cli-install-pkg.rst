@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, install, pkg, installer, cli
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, install, pkg, installer, cli
 
 .. _macos-cli-install-pkg:
 

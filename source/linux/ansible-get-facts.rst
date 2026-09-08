@@ -1,7 +1,7 @@
-.. index:: linux, ansible, facts
+.. index:: linux, ansible, facts, playbook, gather_facts, setup
 
 .. meta::
-   :keywords: linux, ansible, facts
+   :keywords: linux, ansible, facts, playbook, gather_facts, setup
 
 .. _ansible-get-facts:
 

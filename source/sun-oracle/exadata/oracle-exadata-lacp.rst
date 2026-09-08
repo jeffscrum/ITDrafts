@@ -1,4 +1,7 @@
-.. index:: exadata, lacp
+.. index:: exadata, lacp, bonding, 802.3ad, bondeth0, network
+
+.. meta::
+   :keywords: exadata, lacp, bonding, 802.3ad, bondeth0, network
 
 .. _oracle-exadata-lacp:
 

@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, version, sw_vers, system_profiler
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, version, sw_vers, system_profiler
 
 .. _macos-show-version:
 

@@ -1,7 +1,7 @@
-.. index:: brocade, fan
+.. index:: brocade, fan, dcx, replace
 
 .. meta::
-   :keywords: brocade, fan
+   :keywords: brocade, fan, dcx, replace
 
 .. _brocade-dcx-fan-replace:
 

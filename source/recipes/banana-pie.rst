@@ -1,7 +1,7 @@
-.. index:: recipes, banan, pie
+.. index:: recipes, banan, pie, banana, dessert, baking
 
 .. meta::
-   :keywords: recipes, banan, pie
+   :keywords: recipes, banan, pie, banana, dessert, baking
 
 .. _banana-pie:
 

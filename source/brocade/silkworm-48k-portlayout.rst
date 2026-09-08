@@ -1,4 +1,7 @@
-.. index:: brocade
+.. index:: brocade, silkworm, 48k, port, layout
+
+.. meta::
+   :keywords: brocade, silkworm, 48k, port, layout
 
 .. _silkworm-48k-portlayout:
 

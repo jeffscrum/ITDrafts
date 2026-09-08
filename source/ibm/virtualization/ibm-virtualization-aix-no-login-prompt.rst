@@ -1,7 +1,7 @@
-.. index:: ibm, aix, login
+.. index:: ibm, aix, login, prompt, serial, console
 
 .. meta::
-   :keywords: ibm, aix, login
+   :keywords: ibm, aix, login, prompt, serial, console
 
 .. _ibm-virtualization-aix-no-login-prompt:
 

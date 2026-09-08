@@ -1,7 +1,7 @@
-.. index:: exadata, serial
+.. index:: exadata, serial, dmidecode, ipmitool, dcli
 
 .. meta::
-   :keywords: exadata, serial
+   :keywords: exadata, serial, dmidecode, ipmitool, dcli
 
 .. _oracle-exadata-get-serial:
 

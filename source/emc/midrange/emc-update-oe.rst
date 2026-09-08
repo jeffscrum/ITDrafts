@@ -1,7 +1,7 @@
-.. index:: emc, vnx, update, midrange
+.. index:: emc, vnx, update, midrange, firmware, oe
 
 .. meta::
-   :keywords: emc, vnx, update, midrange
+   :keywords: emc, vnx, update, midrange, firmware, oe
 
 .. _emc-update-oe:
 

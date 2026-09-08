@@ -1,4 +1,7 @@
-.. index:: oracle, sun, break, ilom
+.. index:: oracle, sun, break, ilom, console, alom
+
+.. meta::
+   :keywords: oracle, sun, break, ilom, console, alom
 
 .. _oracle-hw-ilom-send-break:
 

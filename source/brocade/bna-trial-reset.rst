@@ -1,7 +1,7 @@
-.. index:: brocade, bna
+.. index:: brocade, bna, network-advisor, license, trial, postgresql
 
 .. meta::
-   :keywords: brocade, bna
+   :keywords: brocade, bna, network-advisor, license, trial, postgresql
 
 .. _bna-trial-reset:
 

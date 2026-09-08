@@ -1,7 +1,7 @@
-.. index:: hds, snm, maintenance
+.. index:: hds, snm, maintenance, mode, gui
 
 .. meta::
-   :keywords: hds, snm, maintenance
+   :keywords: hds, snm, maintenance, mode, gui
 
 .. _hds-midrange-snm-maintenance-mode:
 

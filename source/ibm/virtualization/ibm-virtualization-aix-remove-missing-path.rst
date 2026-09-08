@@ -1,7 +1,7 @@
-.. index:: ibm, aix, missing, path
+.. index:: ibm, aix, path, missing, lspath, rmpath, fc
 
 .. meta::
-   :keywords: ibm, aix, missing, path
+   :keywords: ibm, aix, path, missing, lspath, rmpath, fc
 
 .. _ibm-virtualization-aix-remove-missing-path:
 

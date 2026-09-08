@@ -1,7 +1,7 @@
-.. index:: sun, ilom, update
+.. index:: sun, ilom, update, firmware, video
 
 .. meta::
-   :keywords: sun, ilom, update
+   :keywords: sun, ilom, update, firmware, video
 
 .. _oracle-hw-ilom-update:
 

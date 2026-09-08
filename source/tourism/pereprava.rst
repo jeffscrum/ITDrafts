@@ -1,7 +1,7 @@
-.. index:: tourism, переправа
+.. index:: tourism, переправа, техника
 
 .. meta::
-   :keywords: tourism, переправа
+   :keywords: tourism, переправа, техника
 
 .. _pereprava:
 

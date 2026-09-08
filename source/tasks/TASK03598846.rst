@@ -1,7 +1,7 @@
-.. index:: vmax, tasks
+.. index:: vmax, tasks, fast, tier, ssd
 
 .. meta::
-   :keywords: vmax, tasks
+   :keywords: vmax, tasks, fast, tier, ssd
 
 .. _TASK03598846:
 

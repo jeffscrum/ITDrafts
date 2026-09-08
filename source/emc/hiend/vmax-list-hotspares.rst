@@ -1,4 +1,7 @@
-.. index:: emc, vmax, spare
+.. index:: emc, vmax, spare, hotspare, disk, symdisk
+
+.. meta::
+   :keywords: emc, vmax, spare, hotspare, disk, symdisk
 
 .. _vmax-list-hotspares:
 

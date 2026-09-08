@@ -1,7 +1,7 @@
-.. index:: ibm, hmc, alarm
+.. index:: ibm, hmc, led, lsled, chled, alarm
 
 .. meta::
-   :keywords: ibm, hmc, alarm
+   :keywords: ibm, hmc, led, lsled, chled, alarm
 
 .. _ibm-virtualization-check-and-clear-attention-led:
 

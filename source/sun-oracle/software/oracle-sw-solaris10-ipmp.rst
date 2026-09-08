@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, ipmp
+.. index:: oracle, solaris, ipmp, failover, interface, group
 
 .. meta::
-   :keywords: oracle, solaris, ipmp
+   :keywords: oracle, solaris, ipmp, failover, interface, group
 
 .. _oracle-sw-solaris10-ipmp:
 

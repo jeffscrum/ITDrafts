@@ -1,7 +1,7 @@
-.. index:: synapse, matrix, retention
+.. index:: synapse, matrix, room, retention, lifetime, purge
 
 .. meta::
-   :keywords: matrix, synapse, room, retention, lifetime
+   :keywords: synapse, matrix, room, retention, lifetime, purge
 
 .. _synapse-matrix-room-retention:
 

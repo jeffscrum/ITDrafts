@@ -1,7 +1,7 @@
-.. index:: linux, journal, logs
+.. index:: linux, journal, logs, journald, clean, vacuum, systemd
 
 .. meta::
-   :keywords: linux, journal, logs
+   :keywords: linux, journal, logs, journald, clean, vacuum, systemd
 
 .. _linux-var-log-journal-clean:
 

@@ -1,4 +1,7 @@
-.. index:: emc, vmax
+.. index:: emc, vmax, heads, tracks, cylinders, gb, capacity
+
+.. meta::
+   :keywords: emc, vmax, heads, tracks, cylinders, gb, capacity
 
 .. _vmax-heads-tracks-cylinder-gb:
 

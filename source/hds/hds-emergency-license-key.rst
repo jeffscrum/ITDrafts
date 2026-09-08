@@ -1,4 +1,7 @@
-.. index:: hds, license
+.. index:: hds, license, emergency, true-copy, key
+
+.. meta::
+   :keywords: hds, license, emergency, true-copy, key
 
 .. _hds-emergency-license-key:
 

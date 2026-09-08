@@ -1,4 +1,7 @@
-.. index:: emc, vmax, failed
+.. index:: emc, vmax, failed, disk, symdisk, solutions-enabler
+
+.. meta::
+   :keywords: emc, vmax, failed, disk, symdisk, solutions-enabler
 
 .. _vmax-list-failed-drives:
 

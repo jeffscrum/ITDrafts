@@ -1,7 +1,7 @@
-.. index:: oracle, solaris11
+.. index:: oracle, solaris11, upgrade, ips, repository, pkg, beadm
 
 .. meta::
-   :keywords: oracle, solaris11
+   :keywords: oracle, solaris11, upgrade, ips, repository, pkg, beadm
 
 .. _oracle-solaris11_2-solaris11_3:
 

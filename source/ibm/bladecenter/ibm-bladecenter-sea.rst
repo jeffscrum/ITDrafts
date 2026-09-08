@@ -1,7 +1,7 @@
-.. index:: imb, bladecenter, sea
+.. index:: ibm, bladecenter, sea, vios, aix, promiscuous, etherchannel, network
 
 .. meta::
-   :keywords: ibm, bladecenter, sea
+   :keywords: ibm, bladecenter, sea, vios, aix, promiscuous, etherchannel, network
 
 .. _ibm-bladecenter-sea:
 

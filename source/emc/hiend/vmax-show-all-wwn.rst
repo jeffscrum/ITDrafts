@@ -1,4 +1,7 @@
-.. index:: emc, vmax, wwn
+.. index:: emc, vmax, wwn, symcfg, port, solutions-enabler
+
+.. meta::
+   :keywords: emc, vmax, wwn, symcfg, port, solutions-enabler
 
 .. _vmax-show-all-wwn:
 

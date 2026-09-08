@@ -1,7 +1,7 @@
-.. index:: ibm, aix, ssh
+.. index:: ibm, aix, ssh, openssh, install, installp
 
 .. meta::
-   :keywords: ibm, aix, ssh
+   :keywords: ibm, aix, ssh, openssh, install, installp
 
 .. _ibm-virtualization-aix-install-sshd:
 

@@ -1,4 +1,7 @@
-.. index:: homeassistant, unsupported
+.. index:: homeassistant, rollback, docker, supervisor, version
+
+.. meta::
+   :keywords: homeassistant, rollback, docker, supervisor, version
 
 .. _homeassistant-rollback:
 

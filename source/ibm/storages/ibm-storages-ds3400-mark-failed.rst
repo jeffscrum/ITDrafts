@@ -1,7 +1,7 @@
-.. index:: ibm, storage, ds3400, drive, failed
+.. index:: ibm, storage, ds3400, drive, failed, mark, script
 
 .. meta::
-   :keywords: ibm, storage, ds3400, drive, failed
+   :keywords: ibm, storage, ds3400, drive, failed, mark, script
 
 .. _ibm-storages-ds3400-mark-failed:
 

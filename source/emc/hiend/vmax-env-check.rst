@@ -1,4 +1,7 @@
-.. index:: emc, vmax
+.. index:: emc, vmax, symcfg, env-data, status, check
+
+.. meta::
+   :keywords: emc, vmax, symcfg, env-data, status, check
 
 .. _vmax-env-check:
 

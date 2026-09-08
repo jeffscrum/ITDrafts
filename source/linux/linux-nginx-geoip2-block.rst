@@ -1,7 +1,7 @@
-.. index:: linux, debian, geoip, geoip2, nginx
+.. index:: linux, debian, geoip, geoip2, nginx, block, country, mmdb
 
 .. meta::
-   :keywords: linux, debian, geoip, geoip2, nginx
+   :keywords: linux, debian, geoip, geoip2, nginx, block, country, mmdb
 
 .. _linux-nginx-geoip2-block:
 

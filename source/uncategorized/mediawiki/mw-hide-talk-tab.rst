@@ -1,4 +1,7 @@
-.. index:: mediawiki
+.. index:: mediawiki, css, hide, discussion
+
+.. meta::
+   :keywords: mediawiki, css, hide, discussion
 
 .. _mw-hide-talk-tab:
 

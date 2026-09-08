@@ -1,7 +1,7 @@
-.. index:: linux, kernel, centos, rhel, yum
+.. index:: linux, centos, rhel, yum, error, repo, vault, metadata
 
 .. meta::
-   :keywords: linux, kernel, centos, rhel, yum
+   :keywords: linux, centos, rhel, yum, error, repo, vault, metadata
 
 .. _linux-centos8-yum-error:
 

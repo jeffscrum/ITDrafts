@@ -1,7 +1,7 @@
-.. index:: macos, mac, sha, md5
+.. index:: macos, mac, sha, md5, apple, checksum, shasum, openssl
 
 .. meta::
-   :keywords: macos, mac, sha, md5, apple
+   :keywords: macos, mac, sha, md5, apple, checksum, shasum, openssl
 
 .. _macos-checksum:
 

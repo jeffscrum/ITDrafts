@@ -1,7 +1,7 @@
-.. index:: linux, postfix, mail, relay, gmail
+.. index:: linux, postfix, mail, relay, gmail, smtp, sasl, ubuntu
 
 .. meta::
-   :keywords: linux, postfix, mail, relay, gmail
+   :keywords: linux, postfix, mail, relay, gmail, smtp, sasl, ubuntu
 
 .. _ubuntu-postfix-gmail-relay:
 

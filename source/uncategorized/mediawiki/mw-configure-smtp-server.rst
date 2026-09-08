@@ -1,4 +1,7 @@
-.. index:: mediawiki, smtp
+.. index:: mediawiki, smtp, mail
+
+.. meta::
+   :keywords: mediawiki, smtp, mail
 
 .. _mw-configure-smtp-server:
 

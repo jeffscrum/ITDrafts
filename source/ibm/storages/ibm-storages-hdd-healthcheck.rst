@@ -1,7 +1,7 @@
-.. index:: ibm, storage, fw, upgrade, v7000, storwize
+.. index:: ibm, storage, v7000, storwize, hdd, healthcheck, lsdrive, script
 
 .. meta::
-   :keywords: ibm, storage, fw, upgrade, v7000, storwize
+   :keywords: ibm, storage, v7000, storwize, hdd, healthcheck, lsdrive, script
 
 .. _ibm-storages-hdd-healthcheck:
 

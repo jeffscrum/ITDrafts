@@ -1,7 +1,7 @@
-.. index:: ibm, aix, zip, xx, hmc
+.. index:: ibm, hmc, xx, zip, service, logs, pscp, aix
 
 .. meta::
-   :keywords: ibm, aix, zip, xx, hmc
+   :keywords: ibm, hmc, xx, zip, service, logs, pscp, aix
 
 .. _ibm-hmc-collect-xxzip:
 

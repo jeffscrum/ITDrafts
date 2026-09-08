@@ -1,3 +1,8 @@
+.. index:: linux, ubuntu, confluence, atlassian, license, java, postgresql
+
+.. meta::
+   :keywords: linux, ubuntu, confluence, atlassian, license, java, postgresql
+
 Установка Confluence + лицензия
 ===============================
 

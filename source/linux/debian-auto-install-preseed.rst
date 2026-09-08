@@ -1,7 +1,7 @@
-.. index:: linux, debian, centos, rhel, kickstart, preseed, install
+.. index:: linux, debian, centos, rhel, kickstart, preseed, install, iso
 
 .. meta::
-   :keywords: linux, debian, centos, rhel, kickstart, preseed, install
+   :keywords: linux, debian, centos, rhel, kickstart, preseed, install, iso
 
 .. _debian-auto-install-preseed:
 

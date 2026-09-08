@@ -1,9 +1,9 @@
-.. index:: brocade, switch, type, san
+.. index:: brocade, switch, type, san, switchshow, silkworm, model, serial
 
 .. _determine-model-switchtype:
 
 .. meta::
-   :keywords: brocade, switch, type, san
+   :keywords: brocade, switch, type, san, switchshow, silkworm, model, serial
 
 How to determine the model by SwitchType
 ========================================

@@ -1,7 +1,7 @@
-.. index:: emc, vmax, check
+.. index:: emc, vmax, check, script, health, symdisk
 
 .. meta::
-   :keywords: emc, vmax, check
+   :keywords: emc, vmax, check, script, health, symdisk
 
 .. _vmax-checkscript:
 

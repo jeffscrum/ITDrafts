@@ -1,7 +1,7 @@
-.. index:: ibm, aix, boot, cdrom
+.. index:: ibm, aix, boot, cdrom, bootlist, sms
 
 .. meta::
-   :keywords: ibm, aix, boot, cdrom
+   :keywords: ibm, aix, boot, cdrom, bootlist, sms
 
 .. _ibm-virtualization-boot-cdrom-wosms:
 

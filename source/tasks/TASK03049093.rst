@@ -1,7 +1,7 @@
-.. index:: vmax, tasks
+.. index:: vmax, tasks, thin, pool, lun
 
 .. meta::
-   :keywords: vmax, tasks
+   :keywords: vmax, tasks, thin, pool, lun
 
 .. _TASK03049093:
 

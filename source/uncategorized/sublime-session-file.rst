@@ -1,5 +1,8 @@
 .. index:: sublime, dropbox, sync
 
+.. meta::
+   :keywords: sublime, dropbox, sync
+
 .. _sublime-session-file:
 
 Синхронизация файла сессий Sublime

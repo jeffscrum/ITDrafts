@@ -1,4 +1,7 @@
-.. index:: exadata, cabling
+.. index:: exadata, cabling, rack, wiring, ethernet
+
+.. meta::
+   :keywords: exadata, cabling, rack, wiring, ethernet
 
 .. _oracle-exadata-cabling-table:
 

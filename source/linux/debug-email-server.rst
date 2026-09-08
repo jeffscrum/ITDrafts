@@ -1,7 +1,7 @@
-.. index:: linux, mail, debug
+.. index:: linux, mail, debug, smtp, smtpd, python
 
 .. meta::
-   :keywords: linux, mail, debug
+   :keywords: linux, mail, debug, smtp, smtpd, python
 
 .. _debug-email-server:
 

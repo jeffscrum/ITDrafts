@@ -1,7 +1,7 @@
-.. index:: vyos, wireguard, vpn, client, site-to-site
+.. index:: vyos, wireguard, vpn, client, site-to-site, tunnel, keys
 
 .. meta::
-   :keywords: vyos, wireguard, vpn, client, site-to-site
+   :keywords: vyos, wireguard, vpn, client, site-to-site, tunnel, keys
 
 .. _vyos-wg-configure:
 

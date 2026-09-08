@@ -1,7 +1,7 @@
-.. index:: vyos, build, docker, iso, equuleus
+.. index:: vyos, build, docker, iso, equuleus, git
 
 .. meta::
-   :keywords: vyos, docker, build, iso, equuleus
+   :keywords: vyos, build, docker, iso, equuleus, git
 
 .. _vyos-build-image:
 

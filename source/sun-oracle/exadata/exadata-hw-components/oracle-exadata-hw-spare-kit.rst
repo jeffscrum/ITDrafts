@@ -1,4 +1,7 @@
-.. index:: exadata, defaut, spares, kit
+.. index:: exadata, default, spares, kit, hardware
+
+.. meta::
+   :keywords: exadata, default, spares, kit, hardware
 
 .. _oracle-exadata-hw-spare-kit:
 

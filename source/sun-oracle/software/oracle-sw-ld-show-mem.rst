@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, ldm, memory
+.. index:: oracle, solaris, ldm, memory, ldom, ilom
 
 .. meta::
-   :keywords: oracle, solaris, ldm, memory
+   :keywords: oracle, solaris, ldm, memory, ldom, ilom
 
 .. _oracle-sw-ld-show-mem:
 

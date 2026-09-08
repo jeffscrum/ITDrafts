@@ -1,7 +1,7 @@
-.. index:: vyos, influx, telegraf
+.. index:: vyos, influx, influxdb, telegraf, monitoring, template
 
 .. meta::
-   :keywords: vyos, influx, telegraf
+   :keywords: vyos, influx, influxdb, telegraf, monitoring, template
 
 .. _vyos-cloud-influx:
 

@@ -1,7 +1,7 @@
-.. index:: vagrant, box, manual, add
+.. index:: vagrant, box, manual, add, virtualbox, metadata
 
 .. meta::
-   :keywords: vagrant, box, manual, add
+   :keywords: vagrant, box, manual, add, virtualbox, metadata
 
 .. _vagrant-add-box-manual:
 

@@ -1,4 +1,7 @@
-.. index:: exadata, lock, ssh
+.. index:: exadata, lock, ssh, unlock, pam, password
+
+.. meta::
+   :keywords: exadata, lock, ssh, unlock, pam, password
 
 .. _oracle-exadata-root-unlock:
 

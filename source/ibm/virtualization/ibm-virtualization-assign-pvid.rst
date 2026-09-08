@@ -1,7 +1,7 @@
-.. index:: ibm, aix, pvid
+.. index:: ibm, aix, pvid, disk, lspv, chdev
 
 .. meta::
-   :keywords: ibm, aix, pvid
+   :keywords: ibm, aix, pvid, disk, lspv, chdev
 
 .. _ibm-virtualization-assign-pvid:
 

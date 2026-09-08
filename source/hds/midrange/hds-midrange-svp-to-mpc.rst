@@ -1,4 +1,7 @@
-.. index:: hds, svp, mpc
+.. index:: hds, svp, mpc, maintenance, autodump, sim
+
+.. meta::
+   :keywords: hds, svp, mpc, maintenance, autodump, sim
 
 .. _hds-midrange-svp-to-mpc:
 

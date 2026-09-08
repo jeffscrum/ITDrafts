@@ -1,7 +1,7 @@
-.. index:: ibm, dlpar, rmc, vlan, sea, hmc
+.. index:: ibm, dlpar, rmc, vlan, sea, hmc, chhwres, power
 
 .. meta::
-   :keywords: ibm, dlpar, rmc, vlan, sea, hmc
+   :keywords: ibm, dlpar, rmc, vlan, sea, hmc, chhwres, power
 
 .. _hmc-change-vlan-dynamically:
 

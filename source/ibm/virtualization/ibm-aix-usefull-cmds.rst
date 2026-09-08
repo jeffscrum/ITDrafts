@@ -1,7 +1,7 @@
-.. index:: ibm, aix, wwn, lpar, terminal, console, hmc
+.. index:: ibm, aix, wwn, lpar, terminal, console, hmc, mkvterm
 
 .. meta::
-   :keywords: ibm, aix, wwn, lpar, terminal, console, hmc
+   :keywords: ibm, aix, wwn, lpar, terminal, console, hmc, mkvterm
 
 .. _ibm-aix-usefull-cmds:
 

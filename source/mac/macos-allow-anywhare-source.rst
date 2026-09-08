@@ -1,7 +1,7 @@
-.. index:: macos, mac, install, source
+.. index:: macos, mac, install, source, apple, spctl, security, gatekeeper
 
 .. meta::
-   :keywords: macos, mac, install, source, apple
+   :keywords: macos, mac, install, source, apple, spctl, security, gatekeeper
 
 .. _macos-allow-anywhare-source:
 

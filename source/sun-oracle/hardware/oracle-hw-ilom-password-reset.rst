@@ -1,8 +1,8 @@
-.. index:: sun, oracle, ilom, password
+.. index:: sun, oracle, ilom, password, reset, ipmitool
 
 .. meta::
    :description: How to reset ILOM password
-   :keywords: sun, oracle, ilom, password
+   :keywords: sun, oracle, ilom, password, reset, ipmitool
 
 .. _oracle-hw-ilom-password-reset:
 

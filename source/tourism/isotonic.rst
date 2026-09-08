@@ -1,7 +1,7 @@
-.. index:: tourism, isotonic
+.. index:: tourism, isotonic, рецепт
 
 .. meta::
-   :keywords: tourism, isotonic
+   :keywords: tourism, isotonic, рецепт
 
 .. _isotonic:
 

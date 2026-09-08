@@ -1,7 +1,7 @@
-.. index:: emc, vmax, callhome
+.. index:: emc, vmax, callhome, test, symmwin
 
 .. meta::
-   :keywords: emc, vmax, callhome
+   :keywords: emc, vmax, callhome, test, symmwin
 
 .. _vmax-callhome:
 

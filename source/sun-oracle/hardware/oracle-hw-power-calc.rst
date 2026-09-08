@@ -1,4 +1,7 @@
-.. index:: oracle, sun, power, usage
+.. index:: oracle, sun, power, usage, calculator, energy
+
+.. meta::
+   :keywords: oracle, sun, power, usage, calculator, energy
 
 .. _oracle-hw-power-calc:
 

@@ -1,4 +1,7 @@
-.. index:: hds, cable, diagram
+.. index:: hds, cable, diagram, backend, beck, storage
+
+.. meta::
+   :keywords: hds, cable, diagram, backend, beck, storage
 
 .. _hds-midrange-backend-cable-wiring-diagram:
 

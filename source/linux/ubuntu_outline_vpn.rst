@@ -1,3 +1,8 @@
+.. index:: linux, ubuntu, vpn, outline, shadowsocks, docker, install, ufw
+
+.. meta::
+   :keywords: linux, ubuntu, vpn, outline, shadowsocks, docker, install, ufw
+
 Установка Outline VPN на Ubuntu 20.04
 =====================================
 

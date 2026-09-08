@@ -1,7 +1,7 @@
-.. index:: ibm, aix, boot, emc, vmax
+.. index:: ibm, aix, emc, vmax, lun, symcfg, symm, disk
 
 .. meta::
-   :keywords: ibm, aix, boot, emc, vmax
+   :keywords: ibm, aix, emc, vmax, lun, symcfg, symm, disk
 
 .. _ibm-virtualization-aix-boot-lun:
 

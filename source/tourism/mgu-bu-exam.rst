@@ -1,3 +1,7 @@
+.. index:: tourism, mgu, бу, билеты
+
+.. meta::
+   :keywords: tourism, mgu, бу, билеты
 
 
 Билеты школы БУ турклуба МГУ 2016 г.

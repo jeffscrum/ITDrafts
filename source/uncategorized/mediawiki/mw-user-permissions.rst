@@ -1,4 +1,7 @@
-.. index:: mediawiki
+.. index:: mediawiki, permissions, users
+
+.. meta::
+   :keywords: mediawiki, permissions, users
 
 .. _mw-user-permissions:
 

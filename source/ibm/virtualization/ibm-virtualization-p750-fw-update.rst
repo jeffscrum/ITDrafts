@@ -1,7 +1,7 @@
-.. index:: ibm, firmware, update, fw
+.. index:: ibm, firmware, update, fw, p750, hmc, updlic
 
 .. meta::
-   :keywords: ibm, firmware, update, fw
+   :keywords: ibm, firmware, update, fw, p750, hmc, updlic
 
 .. _ibm-virtualization-p750-fw-update:
 

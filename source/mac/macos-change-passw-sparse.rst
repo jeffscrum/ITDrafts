@@ -1,7 +1,7 @@
-.. index:: macos, mac, sparse
+.. index:: macos, mac, sparse, apple, password, hdiutil, encrypted
 
 .. meta::
-   :keywords: macos, mac, sparse, apple
+   :keywords: macos, mac, sparse, apple, password, hdiutil, encrypted
 
 .. _macos-change-passw-sparse:
 

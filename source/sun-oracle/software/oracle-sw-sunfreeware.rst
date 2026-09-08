@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, pkg
+.. index:: oracle, solaris, pkg, sunfreeware, mirror, download
 
 .. meta::
-   :keywords: oracle, solaris, pkg
+   :keywords: oracle, solaris, pkg, sunfreeware, mirror, download
 
 .. _oracle-sw-sunfreeware:
 

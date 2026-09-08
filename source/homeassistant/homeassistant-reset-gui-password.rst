@@ -1,4 +1,7 @@
-.. index:: homeassistant, password
+.. index:: homeassistant, password, reset, recovery, auth
+
+.. meta::
+   :keywords: homeassistant, password, reset, recovery, auth
 
 .. _homeassistant-reset-gui-password:
 

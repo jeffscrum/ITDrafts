@@ -1,4 +1,7 @@
-.. index:: hds, snm2, password
+.. index:: hds, snm2, password, login, default, web
+
+.. meta::
+   :keywords: hds, snm2, password, login, default, web
 
 .. _hds-midrange-snm2-default-password:
 

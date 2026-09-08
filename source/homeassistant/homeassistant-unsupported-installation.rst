@@ -1,4 +1,7 @@
-.. index:: homeassistant, unsupported
+.. index:: homeassistant, supervisor, unsupported, unhealthy, install, error
+
+.. meta::
+   :keywords: homeassistant, supervisor, unsupported, unhealthy, install, error
 
 .. _homeassistant-unsupported-installation:
 

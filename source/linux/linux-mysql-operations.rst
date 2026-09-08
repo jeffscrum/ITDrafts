@@ -1,7 +1,7 @@
-.. index:: linux, mysql
+.. index:: linux, mysql, database, backup, restore, mysqldump
 
 .. meta::
-   :keywords: linux, mysql
+   :keywords: linux, mysql, database, backup, restore, mysqldump
 
 .. _linux-mysql-operations:
 

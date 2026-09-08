@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, wifi, password, keychain, security, cli
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, wifi, password, keychain, security, cli
 
 .. _macos-show-wifi-passwd:
 

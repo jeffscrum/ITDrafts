@@ -1,7 +1,7 @@
-.. index:: vyos, wireguard, vpn, client, nat
+.. index:: vyos, wireguard, vpn, client, nat, routing
 
 .. meta::
-   :keywords: vyos, wireguard, vpn, client, nat
+   :keywords: vyos, wireguard, vpn, client, nat, routing
 
 .. _vyos-forwarding-single-host-wan-traffic-via-vpn:
 

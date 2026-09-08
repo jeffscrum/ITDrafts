@@ -1,4 +1,7 @@
-.. index:: emc, vmax, alias, wwn
+.. index:: emc, vmax, alias, wwn, rename, symaccess
+
+.. meta::
+   :keywords: emc, vmax, alias, wwn, rename, symaccess
 
 .. _vmax-wwn-add-alias:
 

@@ -1,7 +1,7 @@
-.. index:: vmax, tasks
+.. index:: vmax, tasks, plan, thin, lun
 
 .. meta::
-   :keywords: vmax, tasks
+   :keywords: vmax, tasks, plan, thin, lun
 
 .. _vmax-svalka:
 

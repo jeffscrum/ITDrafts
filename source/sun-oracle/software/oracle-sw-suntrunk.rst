@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, suntrunk
+.. index:: oracle, solaris, suntrunk, trunk, nettr, lacp
 
 .. meta::
-   :keywords: oracle, solaris, suntrunk
+   :keywords: oracle, solaris, suntrunk, trunk, nettr, lacp
 
 .. _oracle-sw-suntrunk:
 

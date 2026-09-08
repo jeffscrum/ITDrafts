@@ -1,4 +1,7 @@
-.. index:: exadata, fmod
+.. index:: exadata, fmod, flash, card, pci
+
+.. meta::
+   :keywords: exadata, fmod, flash, card, pci
 
 .. _oracle-exadata-fmod-position:
 

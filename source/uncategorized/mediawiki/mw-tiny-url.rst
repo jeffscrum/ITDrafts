@@ -1,4 +1,7 @@
-.. index:: mediawiki
+.. index:: mediawiki, url, seo
+
+.. meta::
+   :keywords: mediawiki, url, seo
 
 .. _mw-tiny-url:
 

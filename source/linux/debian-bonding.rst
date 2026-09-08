@@ -1,7 +1,7 @@
-.. index:: linux, debian, bonding
+.. index:: linux, debian, bonding, network, interface, active-backup
 
 .. meta::
-   :keywords: linux, debian, bonding
+   :keywords: linux, debian, bonding, network, interface, active-backup
 
 .. _debian-bonding:
 

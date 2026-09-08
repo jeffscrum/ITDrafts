@@ -1,7 +1,7 @@
-.. index:: emc, vmax, service
+.. index:: emc, vmax, service, maintenance, deferred, spare
 
 .. meta::
-   :keywords: emc, vmax, service
+   :keywords: emc, vmax, service, maintenance, deferred, spare
 
 .. _vmax-deffered-maintenance:
 

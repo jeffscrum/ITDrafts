@@ -1,7 +1,7 @@
-.. index:: linux, speedtest, cli
+.. index:: linux, speedtest, cli, network, bandwidth, test
 
 .. meta::
-   :keywords: linux, speedtest, cli
+   :keywords: linux, speedtest, cli, network, bandwidth, test
 
 .. _linux-speedtest-cli:
 

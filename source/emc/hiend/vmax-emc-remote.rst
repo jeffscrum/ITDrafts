@@ -1,7 +1,7 @@
-.. index:: emc, vmax, remote, service
+.. index:: emc, vmax, remote, service, emcremote, sp
 
 .. meta::
-   :keywords: emc, vmax, remote, service
+   :keywords: emc, vmax, remote, service, emcremote, sp
 
 .. _vmax-emc-remote:
 

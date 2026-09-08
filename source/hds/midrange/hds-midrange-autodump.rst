@@ -1,4 +1,7 @@
-.. index:: hds, autodump
+.. index:: hds, autodump, svp, dump, maintenance
+
+.. meta::
+   :keywords: hds, autodump, svp, dump, maintenance
 
 .. _hds-midrange-autodump:
 

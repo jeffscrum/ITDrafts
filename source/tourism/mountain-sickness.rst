@@ -1,7 +1,7 @@
-.. index:: tourism, горная болезнь
+.. index:: tourism, горная болезнь, медицина
 
 .. meta::
-   :keywords: tourism, горная болезнь
+   :keywords: tourism, горная болезнь, медицина
 
 .. _mountain-sickness:
 

@@ -1,4 +1,7 @@
-.. index:: hds, svp
+.. index:: hds, svp, replacement, storage, vsp
+
+.. meta::
+   :keywords: hds, svp, replacement, storage, vsp
 
 .. _hds-midrange-replace-svp:
 

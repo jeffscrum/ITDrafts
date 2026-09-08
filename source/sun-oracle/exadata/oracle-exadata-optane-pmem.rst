@@ -1,7 +1,7 @@
-.. index:: exadata, intel, optane, PMEM, Persistent Memory Module
+.. index:: exadata, intel, optane, pmem, persistent-memory, module
 
 .. meta::
-   :keywords: exadata, intel, optane, PMEM, Persistent Memory Module
+   :keywords: exadata, intel, optane, pmem, persistent-memory, module
 
 .. _oracle-exadata-optane-pmem:
 

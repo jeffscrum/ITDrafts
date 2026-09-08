@@ -1,7 +1,7 @@
-.. index:: macos, mac, install, nvidia, driver
+.. index:: macos, mac, install, nvidia, driver, apple, webdriver, sip
 
 .. meta::
-   :keywords: macos, mac, install, nvidia, driver, apple
+   :keywords: macos, mac, install, nvidia, driver, apple, webdriver, sip
 
 .. _macos-install-nvidia-drv:
 

@@ -1,7 +1,7 @@
-.. index:: linux, raid, megacli
+.. index:: linux, raid, megacli, megaraid, lsi, controller
 
 .. meta::
-   :keywords: linux, raid, megacli
+   :keywords: linux, raid, megacli, megaraid, lsi, controller
 
 .. _linux-megacli:
 

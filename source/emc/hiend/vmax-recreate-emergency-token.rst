@@ -1,4 +1,7 @@
-.. index:: emc, vmax, token
+.. index:: emc, vmax, token, credential, ssc, emergency
+
+.. meta::
+   :keywords: emc, vmax, token, credential, ssc, emergency
 
 .. _vmax-recreate-emergency-token:
 

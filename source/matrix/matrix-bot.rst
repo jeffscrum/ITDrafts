@@ -1,7 +1,7 @@
-.. index:: matrix, bot
+.. index:: matrix, bot, bash, curl, script
 
 .. meta::
-   :keywords: matrix, bot
+   :keywords: matrix, bot, bash, curl, script
 
 .. _matrix-bot:
 

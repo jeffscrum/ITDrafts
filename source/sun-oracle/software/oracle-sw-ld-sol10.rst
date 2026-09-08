@@ -1,7 +1,7 @@
-.. index:: oracle, solaris
+.. index:: oracle, solaris, ldom, zone, t5, performance
 
 .. meta::
-   :keywords: oracle, solaris
+   :keywords: oracle, solaris, ldom, zone, t5, performance
 
 .. _oracle-sw-ld-sol10:
 

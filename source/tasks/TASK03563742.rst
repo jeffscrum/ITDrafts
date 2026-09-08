@@ -1,7 +1,7 @@
-.. index:: vmax, tasks
+.. index:: vmax, tasks, aix, hdisk, remove
 
 .. meta::
-   :keywords: vmax, tasks
+   :keywords: vmax, tasks, aix, hdisk, remove
 
 .. _TASK03563742:
 

@@ -1,4 +1,7 @@
-.. index:: ibm, storage, v7000
+.. index:: ibm, storage, v7000, storwize, cabling, cable, diagram, rack
+
+.. meta::
+   :keywords: ibm, storage, v7000, storwize, cabling, cable, diagram, rack
 
 .. _ibm-storages-v7000-cabling:
 

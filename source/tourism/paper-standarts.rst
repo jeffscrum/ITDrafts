@@ -1,7 +1,7 @@
-.. index:: tourism, paper
+.. index:: tourism, paper, формат
 
 .. meta::
-   :keywords: tourism, paper
+   :keywords: tourism, paper, формат
 
 .. _paper-standarts:
 

@@ -1,7 +1,7 @@
-.. index:: linux, awk
+.. index:: linux, awk, text, string, substr
 
 .. meta::
-   :keywords: linux, awk
+   :keywords: linux, awk, text, string, substr
 
 .. _linux-awk:
 

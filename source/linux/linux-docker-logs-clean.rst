@@ -1,7 +1,7 @@
-.. index:: linux, docker, logs
+.. index:: linux, docker, logs, clean, truncate, json
 
 .. meta::
-   :keywords: linux, docker, logs
+   :keywords: linux, docker, logs, clean, truncate, json
 
 .. _linux-docker-logs-clean:
 

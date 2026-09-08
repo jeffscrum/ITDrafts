@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, sru
+.. index:: oracle, solaris, sru, update, pkg, patch
 
 .. meta::
-   :keywords: oracle, solaris, sru
+   :keywords: oracle, solaris, sru, update, pkg, patch
 
 .. _oracle-solaris-sru-update:
 

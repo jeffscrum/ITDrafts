@@ -1,7 +1,7 @@
-.. index:: hds, vsp, gx00
+.. index:: hds, vsp, gx00, install, firmware, rga, mpc, ecn
 
 .. meta::
-   :keywords: hds, vsp, gx00
+   :keywords: hds, vsp, gx00, install, firmware, rga, mpc, ecn
 
 .. _hds-midrange-install-cheatsheet:
 

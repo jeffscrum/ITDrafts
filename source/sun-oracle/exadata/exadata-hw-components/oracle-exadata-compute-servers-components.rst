@@ -1,7 +1,7 @@
-.. index:: exadata, default, configuration, components, servers, compute, db
+.. index:: exadata, default, configuration, components, servers, compute, db, hardware
 
 .. meta::
-   :keywords: exadata, intel, amd, epyc, configuration, components, servers, compute, db, pmem, hardware
+   :keywords: exadata, default, configuration, components, servers, compute, db, hardware
 
 .. _oracle-exadata-compute-servers-components:
 

@@ -1,7 +1,7 @@
-.. index:: oracle, sun, solaris, zfs
+.. index:: oracle, sun, solaris, zfs, disk, replace
 
 .. meta::
-   :keywords: oracle, sun, solaris, zfs
+   :keywords: oracle, sun, solaris, zfs, disk, replace
 
 .. _oracle-hw-zfs-disk-replace:
 

@@ -1,8 +1,8 @@
-.. index:: sun, se6120, battery
+.. index:: sun, oracle, storege, se6120, battery
 
 .. meta::
    :description: How to replace replace battery Sun StorEge 6120
-   :keywords: sun, oracle, StorEge, 6120, battery
+   :keywords: sun, oracle, storege, se6120, battery
 
 .. _oracle-hw-se6120-battery-replace:
 

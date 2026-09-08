@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, eis
+.. index:: oracle, solaris, eis, download, edelivery
 
 .. meta::
-   :keywords: oracle, solaris, eis
+   :keywords: oracle, solaris, eis, download, edelivery
 
 .. _oracle-solaris-eis-download:
 

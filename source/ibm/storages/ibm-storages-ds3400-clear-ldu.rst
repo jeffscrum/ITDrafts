@@ -1,7 +1,7 @@
-.. index:: ibm, storage, ds3400
+.. index:: ibm, storage, ds3400, drive, unreadable, sectors, clear
 
 .. meta::
-   :keywords: ibm, storage, ds3400, drive, failed
+   :keywords: ibm, storage, ds3400, drive, unreadable, sectors, clear
 
 .. _ibm-storages-ds3400-clear-ldu:
 

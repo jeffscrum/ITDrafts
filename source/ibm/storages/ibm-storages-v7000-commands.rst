@@ -1,7 +1,7 @@
-.. index:: ibm, storage, v7000, cli, commands, cluster, password, clusterid, CMMVC8020E
+.. index:: ibm, storage, v7000, cli, commands, cluster, password, clusterid
 
 .. meta::
-   :keywords: ibm, storage, v7000, cli, commands, cluster, password, clusterid, CMMVC8020E
+   :keywords: ibm, storage, v7000, cli, commands, cluster, password, clusterid
 
 .. _ibm-storages-v7000-commands:
 

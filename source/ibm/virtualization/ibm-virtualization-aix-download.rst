@@ -1,7 +1,7 @@
-.. index:: ibm, aix, download
+.. index:: ibm, aix, download, ess, iso, license
 
 .. meta::
-   :keywords: ibm, aix, download
+   :keywords: ibm, aix, download, ess, iso, license
 
 .. _ibm-virtualization-aix-download:
 

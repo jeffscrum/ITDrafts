@@ -1,4 +1,7 @@
-.. index:: emc, vmax
+.. index:: emc, vmax, mibe, power-supply, replace, fru
+
+.. meta::
+   :keywords: emc, vmax, mibe, power-supply, replace, fru
 
 .. _vmax-mibe-ps-replace:
 

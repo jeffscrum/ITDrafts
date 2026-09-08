@@ -1,7 +1,7 @@
-.. index:: linux, debian, dhcpd
+.. index:: linux, debian, dhcp, dhcpd, isc-dhcp-server, error
 
 .. meta::
-   :keywords: linux, debian, dhcpd
+   :keywords: linux, debian, dhcp, dhcpd, isc-dhcp-server, error
 
 .. _linux-isc-dhcp-server:
 

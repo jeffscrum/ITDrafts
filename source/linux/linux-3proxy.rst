@@ -1,7 +1,7 @@
-.. index:: linux, debian, 3proxy, proxy, socks5
+.. index:: linux, debian, 3proxy, proxy, socks5, install, systemd
 
 .. meta::
-   :keywords: linux, debian, 3proxy, proxy, socks5
+   :keywords: linux, debian, 3proxy, proxy, socks5, install, systemd
 
 .. _linux-3proxy:
 

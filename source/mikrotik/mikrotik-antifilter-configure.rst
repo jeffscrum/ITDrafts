@@ -1,7 +1,7 @@
-.. index:: mikrotik, bgp
+.. index:: mikrotik, bgp, antifilter
 
 .. meta::
-   :keywords: mikrotik, bgp
+   :keywords: mikrotik, bgp, antifilter
 
 .. _mikrotik-antifilter-configure:
 

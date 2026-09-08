@@ -1,7 +1,7 @@
-.. index:: linux, vpn, wireguard
+.. index:: linux, vpn, wireguard, debian, install, iptables, keys, qr
 
 .. meta::
-   :keywords: linux, vpn, wireguard
+   :keywords: linux, vpn, wireguard, debian, install, iptables, keys, qr
 
 .. _linux-wireguard-installation:
 

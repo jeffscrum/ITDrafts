@@ -1,7 +1,7 @@
-.. index:: emc, vmax, location, build, vmax3, powermax
+.. index:: emc, vmax, location, build, vmax3, powermax, serial, model
 
 .. meta::
-   :keywords: emc, vmax, location, build, vmax3, powermax
+   :keywords: emc, vmax, location, build, vmax3, powermax, serial, model
 
 .. _vmax-build-and-type:
 

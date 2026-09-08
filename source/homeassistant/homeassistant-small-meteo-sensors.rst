@@ -1,4 +1,7 @@
-.. index:: homeassistant
+.. index:: homeassistant, sensors, meteo, temperature, humidity, pressure, curl, awk
+
+.. meta::
+   :keywords: homeassistant, sensors, meteo, temperature, humidity, pressure, curl, awk
 
 .. _homeassistant-small-meteo-sensors:
 

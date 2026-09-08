@@ -1,4 +1,7 @@
-.. index:: hds, license
+.. index:: hds, license, recovery, key, mail
+
+.. meta::
+   :keywords: hds, license, recovery, key, mail
 
 .. _hds-license-recovery:
 

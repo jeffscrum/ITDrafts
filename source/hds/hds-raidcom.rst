@@ -1,4 +1,7 @@
-.. index:: hds, raidcom
+.. index:: hds, raidcom, cli, horcm, storage, lun, host-group, wwn
+
+.. meta::
+   :keywords: hds, raidcom, cli, horcm, storage, lun, host-group, wwn
 
 .. _hds-raidcom:
 

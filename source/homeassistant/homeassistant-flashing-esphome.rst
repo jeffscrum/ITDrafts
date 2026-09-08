@@ -1,4 +1,7 @@
-.. index:: homeassistant, esphome
+.. index:: homeassistant, esphome, esptool, esp8266, sonoff, flash
+
+.. meta::
+   :keywords: homeassistant, esphome, esptool, esp8266, sonoff, flash
 
 .. _homeassistant-flashing-esphome:
 

@@ -1,4 +1,7 @@
-.. index:: emc, vmax
+.. index:: emc, vmax, gspatch, patch, disk, driver
+
+.. meta::
+   :keywords: emc, vmax, gspatch, patch, disk, driver
 
 .. _vmax-gs-patch-installation:
 

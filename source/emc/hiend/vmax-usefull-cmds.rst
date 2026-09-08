@@ -1,7 +1,7 @@
-.. index:: emc, vmax, cmd, port, disk
+.. index:: emc, vmax, cmd, port, disk, symaccess, symcfg
 
 .. meta::
-   :keywords: emc, vmax, cmd, port, disk
+   :keywords: emc, vmax, cmd, port, disk, symaccess, symcfg
 
 .. _vmax-usefull-cmds:
 

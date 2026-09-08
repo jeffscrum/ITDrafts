@@ -1,7 +1,7 @@
-.. index:: emc, maintenance, ip, midrange
+.. index:: emc, maintenance, ip, midrange, default, service-port
 
 .. meta::
-   :keywords: emc, maintenance, ip, midrange
+   :keywords: emc, maintenance, ip, midrange, default, service-port
 
 .. _emc-maintenance-ip:
 

@@ -1,4 +1,7 @@
-.. index:: homeassistant
+.. index:: homeassistant, raspberrypi, raspbian, docker, install, supervised, ssd
+
+.. meta::
+   :keywords: homeassistant, raspberrypi, raspbian, docker, install, supervised, ssd
 
 .. _homeassistant-installation-on-raspberrypi4:
 

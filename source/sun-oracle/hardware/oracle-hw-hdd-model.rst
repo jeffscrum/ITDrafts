@@ -1,4 +1,7 @@
-.. index:: oracle, sun, explorer, hdd
+.. index:: oracle, sun, explorer, hdd, disk, model
+
+.. meta::
+   :keywords: oracle, sun, explorer, hdd, disk, model
 
 .. _oracle-hw-hdd-model:
 

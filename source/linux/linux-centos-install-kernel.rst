@@ -1,7 +1,7 @@
-.. index:: linux, kernel, centos, rhel
+.. index:: linux, kernel, centos, rhel, elrepo, yum
 
 .. meta::
-   :keywords: linux, kernel, centos, rhel
+   :keywords: linux, kernel, centos, rhel, elrepo, yum
 
 .. _linux-centos-install-kernel:
 

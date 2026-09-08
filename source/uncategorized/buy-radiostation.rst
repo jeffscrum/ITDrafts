@@ -1,7 +1,7 @@
-.. index:: radio
+.. index:: radio, license, разрешение
 
 .. meta::
-   :keywords: radio
+   :keywords: radio, license, разрешение
 
 .. _buy-radiostation:
 

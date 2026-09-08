@@ -1,7 +1,7 @@
-.. index:: oracle, solaris, login, ssh
+.. index:: oracle, solaris, login, ssh, logindevperm, usb
 
 .. meta::
-   :keywords: oracle, solaris, login, ssh
+   :keywords: oracle, solaris, login, ssh, logindevperm, usb
 
 .. _oracle-sw-long-login-t3:
 

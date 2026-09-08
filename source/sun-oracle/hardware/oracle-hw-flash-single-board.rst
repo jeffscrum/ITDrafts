@@ -1,7 +1,7 @@
-.. index:: sun, oracle, sunfire, v1280, e2900, 3800, 4800, 4810, 6800, e4900, e6900, netra 1280, 1290, flashupdate, firmware
+.. index:: sun, oracle, sunfire, v1280, flashupdate, firmware
 
 .. meta::
-   :keywords: sun, oracle, sunfire, v1280, e2900, 3800, 4800, 4810, 6800, e4900, e6900, netra 1280, 1290, flashupdate, firmware
+   :keywords: sun, oracle, sunfire, v1280, flashupdate, firmware
 
 .. _oracle-hw-flash-single-board:
 

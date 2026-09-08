@@ -1,4 +1,7 @@
-.. index:: emc, token
+.. index:: emc, token, rsa, sdtid, import, password
+
+.. meta::
+   :keywords: emc, token, rsa, sdtid, import, password
 
 .. _vmax-software-rsa-token:
 

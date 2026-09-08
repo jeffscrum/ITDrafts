@@ -1,7 +1,7 @@
-.. index:: macos, mac
+.. index:: macos, mac, update, softwareupdate, install, cli
 
 .. meta::
-   :keywords: macos, mac
+   :keywords: macos, mac, update, softwareupdate, install, cli
 
 .. _macos-cli-install-updates:
 

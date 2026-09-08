@@ -1,7 +1,7 @@
-.. index:: ibm, aix, lvm, sync
+.. index:: ibm, aix, lvm, sync, syncvg, rootvg
 
 .. meta::
-   :keywords: ibm, aix, lvm, sync
+   :keywords: ibm, aix, lvm, sync, syncvg, rootvg
 
 .. _ibm-virtualization-aix-sync-lvm:
 

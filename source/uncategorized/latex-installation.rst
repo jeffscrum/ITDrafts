@@ -1,4 +1,4 @@
-.. index:: linux, latex
+.. index:: linux, latex, texlive
 
 .. meta::
    :keywords: linux, latex, texlive

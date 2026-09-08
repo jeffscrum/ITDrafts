@@ -1,7 +1,7 @@
-.. index:: exadata, default, configuration, components, servers, storage, cell
+.. index:: exadata, default, configuration, components, servers, storage, cell, hardware
 
 .. meta::
-   :keywords: exadata, intel, amd, epyc, configuration, components, servers, storage, cell, compute, pmem, hardware
+   :keywords: exadata, default, configuration, components, servers, storage, cell, hardware
 
 .. _oracle-exadata-cell-servers-components:
 

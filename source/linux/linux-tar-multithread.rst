@@ -1,7 +1,7 @@
-.. index:: linux, tar, multithread
+.. index:: linux, tar, multithread, compression, pigz, pbzip2
 
 .. meta::
-   :keywords: linux, tar, multithread
+   :keywords: linux, tar, multithread, compression, pigz, pbzip2
 
 .. _linux-tar-multithread:
 

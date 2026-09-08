@@ -1,4 +1,7 @@
-.. index:: hds, firmware, RGA
+.. index:: hds, firmware, rga, microcode, mas, vsp
+
+.. meta::
+   :keywords: hds, firmware, rga, microcode, mas, vsp
 
 .. _hds-midrange-rga-firmware:
 
